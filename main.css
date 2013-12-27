@@ -71,7 +71,7 @@ body.popup {
 }
 
 #footer {
-/*    background: #f9fafa; */
+    background: #f9fafa;   
     border-top: 1px solid #e5e5e5;
 }
 
@@ -140,7 +140,7 @@ strong {
 }
 
 #tl_navigation {
-    padding-top: 90px;
+    padding-top: 84px;
     height: 100%;
     overflow: hidden;
     background: url("images/logo.png") 0 -2px no-repeat;
@@ -148,12 +148,12 @@ strong {
 
 #tl_navigation h1 {
     margin: 0;
-    padding: 13px 14px 4px;
+    padding: 4px 14px;
     color: #fff;
 }
 
 #tl_navigation .tl_level_1 {
-    margin-top: 6px !important;
+    margin-top: 0px !important;
     border-top: 1px solid rgba(255, 255, 255, 0.066);
     border-bottom: 1px solid rgba(255, 255, 255, 0.066);
     text-indent: 8px;
@@ -561,7 +561,7 @@ h2.sub_headline_index {
     padding: 7px 0;
     border-bottom: 1px solid #e5e5e5;
     background: #f9fafa;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 200;
 }
 .tl_folder_tlist {
@@ -1352,6 +1352,8 @@ a.navigation {
 
 /* Andere Icons */
 
+/*
+
 .tl_content_right,
 .tl_right_nowrap,
 .tl_right {
@@ -1443,7 +1445,7 @@ a.navigation {
 
 
 
-
+*/
 
 /* Andere Icons Ende */
 
@@ -1465,7 +1467,7 @@ list_view .tl_right_nowrap img,
     opacity: 1;
 }
 
-.list_view .tl_right_nowrap a:hover img,
+.list_view .tl_right_nowrap a:hover img,    
 .tree_view .tl_right a:hover img {
     border-color: #F7642A;
     color: #F7642A !important;
@@ -1761,7 +1763,7 @@ fieldset.collapsed>legend {
     max-width: none;
     margin: 0 auto;
     width: 96%;
-    float: none;
+    float: none;    
 }
 
 #left,
