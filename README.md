@@ -1,4 +1,4 @@
-Conflato - Das neue Contao BE Theme
+Conflatao - Das neue Contao BE Theme
 ======================
 
 
