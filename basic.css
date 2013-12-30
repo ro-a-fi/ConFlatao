@@ -433,15 +433,14 @@ a.tl_submit:hover {
 }
 .tip {
 	max-width:690px;
-	padding:3px 6px 4px;
-	border-radius:3px;
-	box-shadow:1px 1px 3px #666;
-	background:#666;
-	background-image:-moz-linear-gradient(bottom, #41435A 0%, #585b7a 80%);
+	padding: 3px 6px;
+	border-radius: 3px;
+/*	background-image:-moz-linear-gradient(bottom, #41435A 0%, #585b7a 80%);
 	background-image:-webkit-linear-gradient(bottom, #41435A  0%, #585b7a 80%);
 	background-image:-o-linear-gradient(bottom, #41435A  0%, #585b7a 80%);
 	background-image:-ms-linear-gradient(bottom, #41435A  0%, #585b7a 80%);
-	background-image:linear-gradient(bottom, #41435A  0%, #585b7a 80%);
+	background-image:linear-gradient(bottom, #41435A  0%, #585b7a 80%);*/
+    background: rgba(0,0,0,0.9);
 	margin-left:12px;
 	margin-top:4px;
 }
@@ -457,7 +456,7 @@ a.tl_submit:hover {
 	top:-13px;
 	border-left:7px solid transparent;
 	border-right:7px solid transparent;
-	border-bottom:7px solid #666;
+	border-bottom:7px solid rgba(0,0,0,0.9);
 	margin-left:12px;
 	margin-top:4px;
 }
