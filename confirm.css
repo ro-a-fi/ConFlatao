@@ -12,10 +12,6 @@ body {
     border-radius: 3px 3px 0 0;
     background: #F57710;
     background: #F7642A;
-    background-image: -o-linear-gradient(to top, #F7642A 0%, #F89111 100%);
-    background-image: -ms-linear-gradient(to top, #F7642A 0%, #F89111 100%);
-    background-image: -moz-linear-gradient(to top, #F7642A 0%, #F89111 100%);
-    background-image: -webkit-linear-gradient(to top, #F7642A 0%, #F89111 100%);
     background-image: linear-gradient(to top, #F7642A 0%, #F89111 100%);
 }
 

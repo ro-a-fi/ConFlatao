@@ -81,7 +81,7 @@ body.popup {
 }
 
 #footer {
-    background: #f9fafa;   
+    background: #f9fafa;
     border-top: 1px solid #e5e5e5;
 }
 
@@ -131,15 +131,7 @@ strong {
     background: #fff;
     padding-bottom: 74px;
     background: #26324a;
-    background-image: -o-linear-gradient(bottom, #1c273e 0%, #24305a 100%);
-    background-image: -moz-linear-gradient(bottom, #1c273e 0%, #24305a 100%);
-    background-image: -webkit-linear-gradient(bottom, #1c273e 0%, #24305a 100%);
-    background-image: -ms-linear-gradient(bottom, #1c273e 0%, #24305a 100%);
     background-image: linear-gradient(to top, #1c273e 0%, #24305a 100%);
-    -o-box-shadow: inset -2px -3px 5px rgba(0,0,0,0.4);
-    -ms-box-shadow: inset -2px -3px 5px rgba(0,0,0,0.4);
-    -moz-box-shadow: inset -2px -3px 5px rgba(0,0,0,0.4);
-    -webkit-box-shadow: inset -2px -3px 5px rgba(0,0,0,0.4);
     box-shadow: inset -2px -3px 5px rgba(0,0,0,0.4);
 }
 
@@ -240,7 +232,6 @@ strong {
     vertical-align: text-bottom;
 }
 .opacity {
-    -moz-opacity: .8;
     opacity: .8;
 }
 
@@ -566,7 +557,7 @@ h2.sub_headline_index {
     border-width: 1px 1px 0 1px;
 }
 
-#tl_versions th, 
+#tl_versions th,
 .tl_folder_list, .tl_folder_tlist {
     padding: 7px 0;
     border-bottom: 1px solid #e5e5e5;
@@ -1194,7 +1185,6 @@ ul.sgallery li {
     top: 0;
     left: 0;
     background: #fff;
-    -moz-opacity: .5;
     opacity: .5;
 }
 .ce_gallery ul {
@@ -1270,8 +1260,6 @@ ul.sortable li {
     left: 0;
     width: auto;
     height: auto !important;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -1339,7 +1327,7 @@ a.navigation, .header_icon, .header_home, .header_user, .header_preview, .header
 .header_logout, .header_back, .header_new, .header_rss, .header_edit_all, .header_delete_all,
 .header_new_folder, .header_css_import, .header_theme_import, .header_store, .header_toggle, .header_sync {
     padding: 2px 14px 1px;
-    background-image: none !important; 
+    background-image: none !important;
 }
 
 a.navigation {
@@ -1371,7 +1359,7 @@ a.navigation {
 }
 
 /* Andere Icons - Erklärung:
-1. <img> wird ausgeblendet 
+1. <img> wird ausgeblendet
 2. <a> 's werden einzeln angesprochen und Font-Icon durch :before eingefügt
 3. bestimmte <img> (die ohne <a> als ELtern Element) müssen angezeigt werden, da sie nicht ersetzt werden können */
 /*
@@ -1488,7 +1476,7 @@ a.navigation {
     opacity: 1;
 }
 
-.list_view .tl_right_nowrap a:hover img,    
+.list_view .tl_right_nowrap a:hover img,
 .tree_view .tl_right a:hover img {
     border-color: #F7642A;
     color: #F7642A !important;
@@ -1788,7 +1776,7 @@ fieldset.collapsed>legend {
     max-width: none;
     margin: 0 auto;
     width: 100%;
-    float: none;    
+    float: none;
     padding: 0;
 }
 
