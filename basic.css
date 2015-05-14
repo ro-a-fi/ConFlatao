@@ -347,10 +347,6 @@ pre, .tl_textarea.monospace {
   line-height: 1;
   text-shadow: 1px 1px 0 #eee;
   background: #eee;
-  background-image: -moz-linear-gradient(bottom, #ccc 0, #eee 60%);
-  background-image: -webkit-linear-gradient(bottom, #ccc 0, #eee 60%);
-  background-image: -o-linear-gradient(bottom, #ccc 0, #eee 60%);
-  background-image: -ms-linear-gradient(bottom, #ccc 0, #eee 60%);
   background-image: linear-gradient(to top, #ccc 0, #eee 60%);
 }
 a.tl_submit {
