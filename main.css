@@ -123,15 +123,7 @@ strong {
 #left {
   background: #fff;
   background: #26324a;
-  background-image: -o-linear-gradient(bottom, #1c273e 0%, #24305a 100%);
-  background-image: -moz-linear-gradient(bottom, #1c273e 0%, #24305a 100%);
-  background-image: -webkit-linear-gradient(bottom, #1c273e 0%, #24305a 100%);
-  background-image: -ms-linear-gradient(bottom, #1c273e 0%, #24305a 100%);
   background-image: linear-gradient(to top, #1c273e 0%, #24305a 100%);
-  -o-box-shadow: inset -2px -3px 5px rgba(0,0,0,0.4);
-  -ms-box-shadow: inset -2px -3px 5px rgba(0,0,0,0.4);
-  -moz-box-shadow: inset -2px -3px 5px rgba(0,0,0,0.4);
-  -webkit-box-shadow: inset -2px -3px 5px rgba(0,0,0,0.4);
   box-shadow: inset -2px -3px 5px rgba(0,0,0,0.4);
   height: 100%;
   left: 0;
@@ -240,7 +232,6 @@ strong {
   vertical-align: text-bottom;
 }
 .opacity {
-  -moz-opacity: .8;
   opacity: .8;
 }
 
@@ -1191,7 +1182,6 @@ ul.sgallery li {
   background: #fff;
   height: 100%;
   left: 0;
-  -moz-opacity: .5;
   opacity: .5;
   position: absolute;
   top: 0;
@@ -1264,8 +1254,6 @@ ul.sortable li {
 
 .ace_editor.fullsize {
   bottom: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   height: auto !important;
   left: 0;

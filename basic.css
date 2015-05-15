@@ -135,13 +135,14 @@ p {
   line-height: .1px;
 }
 .invisible {
-  display: inline;
-  height: 0;
-  left: -1000px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
   overflow: hidden;
+  padding: 0;
   position: absolute;
-  top: -1000px;
-  width: 0;
+  width: 1px;
 }
 optgroup {
   background: #fff;
@@ -339,10 +340,6 @@ pre, .tl_textarea.monospace {
 }
 .tl_submit {
   background: #eee;
-  background-image: -moz-linear-gradient(bottom, #ccc 0, #eee 60%);
-  background-image: -ms-linear-gradient(bottom, #ccc 0, #eee 60%);
-  background-image: -o-linear-gradient(bottom, #ccc 0, #eee 60%);
-  background-image: -webkit-linear-gradient(bottom, #ccc 0, #eee 60%);
   background-image: linear-gradient(to top, #ccc 0, #eee 60%);
   border-radius: 3px;
   border: 1px solid #aaa;
