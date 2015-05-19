@@ -1,0 +1,84 @@
+/* Contao Open Source CMS,  (c) 2005-2013 Leo Feyer,  LGPL license */
+body {
+  background: #fff;
+  font-family:  'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+#header {
+  background: #F57710;
+  background: #F7642A;
+  background-image: linear-gradient(to top, #F7642A 0%, #F89111 100%);
+  border-radius: 3px 3px 0 0;
+  border: 1px solid #F7642A;
+  border-bottom: 0;
+  margin: 18px auto 0;
+  padding: 1px;
+  width: 636px;
+}
+
+#header h1 {
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0;
+  padding: 2px 14px;
+}
+
+#container {
+  margin: 0 auto;
+  padding: 0;
+  width: 640px;
+}
+#main {
+  background: #fff;
+  border-radius: 0 0 3px 3px;
+  border: 1px solid #e5e5e5;
+  border-top: 0;
+  padding: 24px 18px 6px;
+  width: 602px;
+}
+p {
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+#link {
+  font-size: 13px;
+  word-wrap: break-word;
+}
+.tl_submit {
+  margin-right: 6px;
+}
+
+.tl_submit {
+  background: transparent none;
+  border-radius: 3px;
+  border: 1px solid #4D555B;
+  color: #4D555B;
+  margin-left: 2px;
+  padding: 2px 14px;
+  text-shadow: none;
+}
+
+.tl_submit:hover,
+.tl_submit:active,
+.tl_submit:focus {
+  background: transparent none;
+  border-color: #F7642A;
+  box-shadow: none;
+  color: #F7642A !important;
+  text-shadow: none;
+}
+
+dl {
+  line-height: 1.5;
+  margin: 0 18px 18px;
+  overflow: hidden;
+}
+dt, dd {
+  display: block;
+  float: left;
+}
+dt {
+  clear: both;
+  font-weight: bold;
+  width: 150px;
+}
