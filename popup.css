@@ -7,11 +7,11 @@ h1 {
   display: none;
 }
 h2 {
+  background: url("images/help.gif") left center no-repeat;
+  color: #8ab858;
+  font-size: 14px;
   margin: 18px 18px 12px;
   padding: 7px 0 7px 36px;
-  background: url("images/help.gif") left center no-repeat;
-  font-size: 14px;
-  color: #8ab858;
 }
 .tl_help_table {
   margin: 0 18px;
@@ -29,8 +29,8 @@ h2 {
 #preview .checkerbox {
   background-color: #fff;
   background-image: linear-gradient(45deg, #ccc 25%, transparent 25%, transparent 75%, #ccc 75%, #ccc), linear-gradient(45deg, #ccc 25%, transparent 25%, transparent 75%, #ccc 75%, #ccc);
-  background-size: 30px 30px;
   background-position: 0 0, 15px 15px;
+  background-size: 30px 30px;
 }
 #download {
   margin: 9px 18px 15px;
