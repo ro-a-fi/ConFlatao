@@ -32,17 +32,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: "dripicons";
-  src:url("src/dripicons/dripicons.eot");
-  src:url("src/dripicons/dripicons.eot?#iefix") format("embedded-opentype"),
-  url("src/dripicons/dripicons.ttf") format("truetype"),
-  url("src/dripicons/dripicons.svg#dripicons") format("svg"),
-  url("src/dripicons/dripicons.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 html, body, form, pre, figure, ul, li {
   -webkit-font-smoothing: subpixel-antialiased;
   color: #4D555B;
