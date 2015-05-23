@@ -4,15 +4,15 @@
 
 html,
 body {
-  background: #f9fafa;
-  font-family:  'Source Sans Pro', Helvetica, Arial, sans-serif;
+  background: $base-color-bg;
+  font-family: $base-font-family, $base-font-family-fallback;
   height: 100%;
 }
 
 body {
 
   &.popup {
-    background: #fff;
+    background: $base-color-bg;
     min-width: 0;
     padding: 0;
   }
@@ -41,8 +41,7 @@ strong {
 }
 
 #header {
-  background: #F7642A;
-  background: #f0f1f5;
+  background: $base-color-bg;
   border-bottom: 1px solid #d9dbe8;
 
   h1 {
@@ -71,8 +70,8 @@ strong {
       margin-right: 2px;
 
       &:hover {
-        background: #fff;
-        color: #F7642A;
+        background: $base-color-bg;
+        color: $primary-color;
       }
 
     }
@@ -82,14 +81,14 @@ strong {
 }
 
 #container {
-  background: #fff;
+  background: $base-color-bg;
   box-shadow: 0 0 30px #bbb;
   min-height: calc(100% - 71px - 47px);
   z-index: 0;
 }
 
 #footer {
-  background: #f9fafa;
+  background: $base-color-bg;
   border-top: 1px solid #e5e5e5;
 
   div {
@@ -101,7 +100,7 @@ strong {
 }
 
 #main {
-  background: #fff;
+  background: $base-color-bg;
   float: left;
   position: relative;
   width: 100%;
@@ -136,8 +135,7 @@ strong {
 }
 
 #left {
-  background: #fff;
-  background: #26324a;
+  background: $left-color-bg;
   background-image: linear-gradient(to top, #1c273e 0%, #24305a 100%);
   box-shadow: inset -2px -3px 5px rgba(0,0,0,0.4);
   height: 100%;
@@ -260,7 +258,7 @@ strong {
 h1 {
 
   &.main_headline {
-    color: #4D555B;
+    color: $base-color;
     font-size: 32px;
     font-weight: 200;
     margin: 0;
@@ -276,7 +274,7 @@ h2.sub_headline_update,
 h2.sub_headline_index,
 h2.sub_headline_rss {
   background-image: none !important;
-  color: #4D555B;
+  color: $base-color;
   font-size: 22px;
   margin: 3px 18px 9px;
   padding: 6px 0 8px;
@@ -342,12 +340,12 @@ h2 {
 .tl_gerror a,
 .tl_error,
 .tl_error a {
-  color: #c33;
+  color: $mandatory-color;
 }
 
 .tl_confirm,
 .tl_confirm a {
-  color: #F7642A;
+  color: $primary-color;
 }
 
 .tl_info,
@@ -386,7 +384,7 @@ h2 {
   padding: 8px 12px 10px;
 
   a {
-    color: #555;
+    color: $link-color;
     float: right;
     margin: 1px 3px 0 24px;
   }
@@ -578,7 +576,7 @@ h2 {
 }
 
 .tl_box {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid $border-color;
   padding: 12px 0 26px;
 }
 
@@ -671,8 +669,8 @@ h2 {
 
   img {
     background: #fff;
-    border: 1px solid #ddd;
-    box-shadow: 0 1px 3px #ddd;
+    border: 1px solid $border-color;
+    box-shadow: 0 1px 3px $border-color;
     padding: 2px;
   }
 
@@ -759,7 +757,7 @@ h2 {
     &:hover,
     &:focus,
     &:active {
-      color: #555;
+      color: $link-color;
     }
 
   }
@@ -996,7 +994,7 @@ h2 {
 
   &.unpublished,
   &.unpublished a {
-    color: #c33;
+    color: $mandatory-color;
     font-size: 11px;
   }
 
@@ -1350,7 +1348,7 @@ ul {
 .tl_content.indent:hover,
 .tl_listing li:hover,
 .tl_listing tr:hover td.tl_file_list:first-child {
-  border-left: 2px solid #F7642A;
+  border-left: 2px solid $primary-color;
   margin-left: -1px;
   padding-left: 5px;
 }
@@ -2097,17 +2095,17 @@ a {
 .tl_submit:focus,
 .tl_submit:active {
   background: transparent none;
-  border-color: #F7642A;
+  border-color: $primary-color;
   box-shadow: none;
-  color: #F7642A !important;
+  color: $primary-color !important;
   text-shadow: none;
 }
 
 .tl_submit:hover,
 .tl_submit:focus,
 .tl_submit:active {
-  background: #F7642A;
-  border-color: #F7642A;
+  background: $primary-color;
+  border-color: $primary-color;
   color: #fff !important;
 }
 
@@ -2292,7 +2290,7 @@ a {
 
 label.error,
 legend.error {
-  color: #c33;
+  color: $mandatory-color;
 }
 
 .tl_tbox .tl_error,
@@ -2311,13 +2309,13 @@ fieldset {
   &.tl_tbox,
   &.tl_box {
     border-width: 1px 0 0;
-    border: 1px solid #ddd;
+    border: 1px solid $border-color;
     padding-top: 6px;
 
     > legend,
     > legend {
       background: url("#{$path-img}/palOpen.gif") left center no-repeat;
-      color: #F7642A;
+      color: $primary-color;
       cursor: pointer;
       padding-left: 18px;
       padding-right: 3px;

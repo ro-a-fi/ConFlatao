@@ -5,8 +5,8 @@
 
   p {
     background: url("#{$path-img}/arrow_right.png") bottom right no-repeat;
-    color: #4D555B;
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    color: $base-color;
+    font-family: $base-font-family, $base-font-family-fallback;
     font-size: 22px;
     font-weight: 200;
     padding: 0 36px 16px 0;
@@ -26,9 +26,9 @@
 }
 
 .sort_hint {
-  background: #fff url("#{$path-img}/arrow_left.png") 6px bottom no-repeat;
+  background: $base-color-bg url("#{$path-img}/arrow_left.png") 6px bottom no-repeat;
   color: #838990;
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-family: $base-font-family, $base-font-family-fallback;
   font-size: 15px;
   font-weight: 200;
   left: 300px;
