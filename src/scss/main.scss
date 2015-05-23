@@ -149,7 +149,7 @@ strong {
 }
 
 #tl_navigation {
-  background: url("#{$path-img}/logo-save.png") 0 -10px no-repeat;
+  background: url('#{$path-img}/logo-save.png') 0 -10px no-repeat;
   height: 100%;
   overflow: hidden;
   padding-top: 89px;
@@ -283,19 +283,19 @@ h2.sub_headline_rss {
 h2 {
 
   &.sub_headline {
-    background: url("#{$path-img}/current.gif") no-repeat left center;
+    background: url('#{$path-img}/current.gif') no-repeat left center;
   }
 
   &.sub_headline_all {
-    background: url("#{$path-img}/all_big.gif") no-repeat left center;
+    background: url('#{$path-img}/all_big.gif') no-repeat left center;
   }
 
   &.sub_headline_update {
-    background: url("#{$path-img}/update.gif") no-repeat left center;
+    background: url('#{$path-img}/update.gif') no-repeat left center;
   }
 
   &.sub_headline_index {
-    background: url("#{$path-img}/index.gif") no-repeat left center;
+    background: url('#{$path-img}/index.gif') no-repeat left center;
   }
 
 }
@@ -305,7 +305,7 @@ h2 {
 }
 
 .tl_gerror {
-  background: url("#{$path-img}/error.gif") no-repeat left center;
+  background: url('#{$path-img}/error.gif') no-repeat left center;
   margin: 12px 6px 6px;
   padding: 2px 0 3px 20px;
 }
@@ -321,19 +321,19 @@ h2 {
 }
 
 .tl_error {
-  background: #faeeee url("#{$path-img}/error.gif") no-repeat 5px center;
+  background: #faeeee url('#{$path-img}/error.gif') no-repeat 5px center;
 }
 
 .tl_confirm {
-  background: #f3f8ee url("#{$path-img}/ok.gif") no-repeat 5px center;
+  background: #f3f8ee url('#{$path-img}/ok.gif') no-repeat 5px center;
 }
 
 .tl_info {
-  background: #eff5fa url("#{$path-img}/show.gif") no-repeat 6px center;
+  background: #eff5fa url('#{$path-img}/show.gif') no-repeat 6px center;
 }
 
 .tl_new {
-  background: #fff3e0 url("#{$path-img}/featured.gif") no-repeat 5px center;
+  background: #fff3e0 url('#{$path-img}/featured.gif') no-repeat 5px center;
 }
 
 .tl_gerror,
@@ -691,7 +691,7 @@ h2 {
 }
 
 #index_loading {
-  background: url("#{$path-img}/loading.gif") no-repeat 2px center;
+  background: url('#{$path-img}/loading.gif') no-repeat 2px center;
   color: #4b85ba;
   font-size: 16px;
   line-height: 1;
@@ -700,7 +700,7 @@ h2 {
 }
 
 #index_complete {
-  background: url("#{$path-img}/help.gif") no-repeat left center;
+  background: url('#{$path-img}/help.gif') no-repeat left center;
   color: #F57710;
   font-size: 16px;
   line-height: 1;
@@ -977,12 +977,12 @@ h2 {
   width: 520px;
 
   &.published {
-    background: url("#{$path-img}/published.gif") no-repeat left center;
+    background: url('#{$path-img}/published.gif') no-repeat left center;
     padding: 1px 0 2px 20px;
   }
 
   &.unpublished {
-    background: url("#{$path-img}/unpublished.gif") no-repeat left center;
+    background: url('#{$path-img}/unpublished.gif') no-repeat left center;
     padding: 1px 0 2px 20px;
   }
 
@@ -1801,10 +1801,10 @@ ul {
 }
 
 #tl_ajaxBox {
-  background: #fff url("#{$path-img}/loading.gif") no-repeat right center;
+  background: #fff url('#{$path-img}/loading.gif') no-repeat right center;
   border-radius: 6px;
   border: 2px solid #666;
-  font-family: "Trebuchet MS", Verdana, sans-serif;
+  font-family: 'Trebuchet MS', Verdana, sans-serif;
   font-size: 15px;
   left: 40%;
   padding: 24px;
@@ -1907,12 +1907,12 @@ ul {
   padding: 7px 6px;
 
   .open {
-    background: url("#{$path-img}/manager.gif") left center no-repeat;
+    background: url('#{$path-img}/manager.gif') left center no-repeat;
     padding: 2px 0 3px 20px;
   }
 
   .close {
-    background: url("#{$path-img}/back.gif") left center no-repeat;
+    background: url('#{$path-img}/back.gif') left center no-repeat;
     padding: 2px 0 3px 20px;
   }
 
@@ -1944,71 +1944,71 @@ a {
   &.navigation {
 
     &.article {
-      background-image: url("#{$path-img}/article.gif");
+      background-image: url('#{$path-img}/article.gif');
     }
 
     &.news {
-      background-image: url("#{$path-img}/news.gif");
+      background-image: url('#{$path-img}/news.gif');
     }
 
     &.flash {
-      background-image: url("#{$path-img}/flash.gif");
+      background-image: url('#{$path-img}/flash.gif');
     }
 
     &.form {
-      background-image: url("#{$path-img}/form.gif");
+      background-image: url('#{$path-img}/form.gif');
     }
 
     &.themes {
-      background-image: url("#{$path-img}/themes.gif");
+      background-image: url('#{$path-img}/themes.gif');
     }
 
     &.page {
-      background-image: url("#{$path-img}/page.gif");
+      background-image: url('#{$path-img}/page.gif');
     }
 
     &.member {
-      background-image: url("#{$path-img}/member.gif");
+      background-image: url('#{$path-img}/member.gif');
     }
 
     &.mgroup {
-      background-image: url("#{$path-img}/mgroup.gif");
+      background-image: url('#{$path-img}/mgroup.gif');
     }
 
     &.user {
-      background-image: url("#{$path-img}/user.gif");
+      background-image: url('#{$path-img}/user.gif');
     }
 
     &.group {
-      background-image: url("#{$path-img}/group.gif");
+      background-image: url('#{$path-img}/group.gif');
     }
 
     &.files {
-      background-image: url("#{$path-img}/files.gif");
+      background-image: url('#{$path-img}/files.gif');
     }
 
     &.log {
-      background-image: url("#{$path-img}/log.gif");
+      background-image: url('#{$path-img}/log.gif');
     }
 
     &.settings {
-      background-image: url("#{$path-img}/settings.gif");
+      background-image: url('#{$path-img}/settings.gif');
     }
 
     &.maintenance {
-      background-image: url("#{$path-img}/cache.gif");
+      background-image: url('#{$path-img}/cache.gif');
     }
 
     &.undo {
-      background-image: url("#{$path-img}/undo.gif");
+      background-image: url('#{$path-img}/undo.gif');
     }
 
     &.login {
-      background-image: url("#{$path-img}/login.gif");
+      background-image: url('#{$path-img}/login.gif');
     }
 
     &.tpl_editor {
-      background-image: url("#{$path-img}/template_editor.gif");
+      background-image: url('#{$path-img}/template_editor.gif');
     }
 
   }
@@ -2142,69 +2142,69 @@ a {
 }
 
 .header_home {
-  background-image: url("#{$path-img}/home.gif");
+  background-image: url('#{$path-img}/home.gif');
 }
 
 .header_user {
-  background-image: url("#{$path-img}/login.gif");
+  background-image: url('#{$path-img}/login.gif');
 }
 
 .header_preview {
-  background-image: url("#{$path-img}/preview.gif");
+  background-image: url('#{$path-img}/preview.gif');
 }
 
 .header_clipboard {
-  background-image: url("#{$path-img}/clipboard.gif");
+  background-image: url('#{$path-img}/clipboard.gif');
 }
 
 .header_logout {
-  background-image: url("#{$path-img}/logout.gif");
+  background-image: url('#{$path-img}/logout.gif');
 }
 
 .header_back {
-  background-image: url("#{$path-img}/back.gif");
+  background-image: url('#{$path-img}/back.gif');
 }
 
 .header_new {
-  background-image: url("#{$path-img}/new.gif");
+  background-image: url('#{$path-img}/new.gif');
   padding-left: 18px;
 }
 
 .header_rss {
-  background-image: url("#{$path-img}/rss.gif");
+  background-image: url('#{$path-img}/rss.gif');
 }
 
 .header_edit_all {
-  background-image: url("#{$path-img}/all.gif");
+  background-image: url('#{$path-img}/all.gif');
 }
 
 .header_delete_all {
-  background-image: url("#{$path-img}/deleteAll.gif");
+  background-image: url('#{$path-img}/deleteAll.gif');
 }
 
 .header_new_folder {
-  background-image: url("#{$path-img}/newfolder.gif");
+  background-image: url('#{$path-img}/newfolder.gif');
 }
 
 .header_css_import {
-  background-image: url("#{$path-img}/cssimport.gif");
+  background-image: url('#{$path-img}/cssimport.gif');
 }
 
 .header_theme_import {
-  background-image: url("#{$path-img}/theme_import.gif");
+  background-image: url('#{$path-img}/theme_import.gif');
 }
 
 .header_store {
-  background-image: url("#{$path-img}/store.gif");
+  background-image: url('#{$path-img}/store.gif');
   padding-left: 18px;
 }
 
 .header_toggle {
-  background: url("#{$path-img}/folPlus.gif") no-repeat -1px center;
+  background: url('#{$path-img}/folPlus.gif') no-repeat -1px center;
 }
 
 .header_sync {
-  background-image: url("#{$path-img}/sync.gif");
+  background-image: url('#{$path-img}/sync.gif');
 }
 
 .tl_news_published,
@@ -2213,7 +2213,7 @@ a {
 }
 
 .tl_news_published {
-  background: url("#{$path-img}/news.gif") no-repeat left center;
+  background: url('#{$path-img}/news.gif') no-repeat left center;
 }
 
 .tl_text_trbl,
@@ -2221,7 +2221,7 @@ a {
 .tl_imageSize_1,
 #ctrl_gradient input,
 #ctrl_playerSize input {
-  background: url("#{$path-img}/hints.gif") no-repeat -20px 20px;
+  background: url('#{$path-img}/hints.gif') no-repeat -20px 20px;
 }
 
 #ctrl_playerSize_0 {
@@ -2314,7 +2314,7 @@ fieldset {
 
     > legend,
     > legend {
-      background: url("#{$path-img}/palOpen.gif") left center no-repeat;
+      background: url('#{$path-img}/palOpen.gif') left center no-repeat;
       color: $primary-color;
       cursor: pointer;
       padding-left: 18px;
@@ -2337,7 +2337,7 @@ fieldset {
     }
 
     > legend {
-      background: url("#{$path-img}/palCollapsed.gif") left center no-repeat;
+      background: url('#{$path-img}/palCollapsed.gif') left center no-repeat;
     }
 
   }

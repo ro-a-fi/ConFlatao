@@ -33,12 +33,12 @@
 }
 
 @font-face {
-  font-family: "dripicons";
-  src:url("#{$path-font}/dripicons/dripicons.eot");
-  src:url("#{$path-font}/dripicons/dripicons.eot?#iefix") format("embedded-opentype"),
-  url("#{$path-font}/dripicons/dripicons.ttf") format("truetype"),
-  url("#{$path-font}/dripicons/dripicons.svg#dripicons") format("svg"),
-  url("#{$path-font}/dripicons/dripicons.woff") format("woff");
+  font-family: 'dripicons';
+  src:url('#{$path-font}/dripicons/dripicons.eot');
+  src:url('#{$path-font}/dripicons/dripicons.eot?#iefix') format('embedded-opentype'),
+  url('#{$path-font}/dripicons/dripicons.ttf') format('truetype'),
+  url('#{$path-font}/dripicons/dripicons.svg#dripicons') format('svg'),
+  url('#{$path-font}/dripicons/dripicons.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -501,7 +501,7 @@ pre,
 a {
 
   &.tl_submit {
-    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
     font-size: 12px;
     padding: 4px 12px 4px 13px;
   }

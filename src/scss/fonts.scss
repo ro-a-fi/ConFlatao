@@ -4,7 +4,7 @@
   position: relative;
 
   p {
-    background: url("#{$path-img}/arrow_right.png") bottom right no-repeat;
+    background: url('#{$path-img}/arrow_right.png') bottom right no-repeat;
     color: $base-color;
     font-family: $base-font-family, $base-font-family-fallback;
     font-size: 22px;
@@ -26,7 +26,7 @@
 }
 
 .sort_hint {
-  background: $base-color-bg url("#{$path-img}/arrow_left.png") 6px bottom no-repeat;
+  background: $base-color-bg url('#{$path-img}/arrow_left.png') 6px bottom no-repeat;
   color: #838990;
   font-family: $base-font-family, $base-font-family-fallback;
   font-size: 15px;
