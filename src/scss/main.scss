@@ -151,7 +151,7 @@ strong {
 }
 
 #tl_navigation {
-  background: url("images/logo-save.png") 0 -10px no-repeat;
+  background: url("#{$path-img}/logo-save.png") 0 -10px no-repeat;
   height: 100%;
   overflow: hidden;
   padding-top: 89px;
@@ -285,19 +285,19 @@ h2.sub_headline_rss {
 h2 {
 
   &.sub_headline {
-    background: url("images/current.gif") no-repeat left center;
+    background: url("#{$path-img}/current.gif") no-repeat left center;
   }
 
   &.sub_headline_all {
-    background: url("images/all_big.gif") no-repeat left center;
+    background: url("#{$path-img}/all_big.gif") no-repeat left center;
   }
 
   &.sub_headline_update {
-    background: url("images/update.gif") no-repeat left center;
+    background: url("#{$path-img}/update.gif") no-repeat left center;
   }
 
   &.sub_headline_index {
-    background: url("images/index.gif") no-repeat left center;
+    background: url("#{$path-img}/index.gif") no-repeat left center;
   }
 
 }
@@ -307,7 +307,7 @@ h2 {
 }
 
 .tl_gerror {
-  background: url("images/error.gif") no-repeat left center;
+  background: url("#{$path-img}/error.gif") no-repeat left center;
   margin: 12px 6px 6px;
   padding: 2px 0 3px 20px;
 }
@@ -323,19 +323,19 @@ h2 {
 }
 
 .tl_error {
-  background: #faeeee url("images/error.gif") no-repeat 5px center;
+  background: #faeeee url("#{$path-img}/error.gif") no-repeat 5px center;
 }
 
 .tl_confirm {
-  background: #f3f8ee url("images/ok.gif") no-repeat 5px center;
+  background: #f3f8ee url("#{$path-img}/ok.gif") no-repeat 5px center;
 }
 
 .tl_info {
-  background: #eff5fa url("images/show.gif") no-repeat 6px center;
+  background: #eff5fa url("#{$path-img}/show.gif") no-repeat 6px center;
 }
 
 .tl_new {
-  background: #fff3e0 url("images/featured.gif") no-repeat 5px center;
+  background: #fff3e0 url("#{$path-img}/featured.gif") no-repeat 5px center;
 }
 
 .tl_gerror,
@@ -693,7 +693,7 @@ h2 {
 }
 
 #index_loading {
-  background: url("images/loading.gif") no-repeat 2px center;
+  background: url("#{$path-img}/loading.gif") no-repeat 2px center;
   color: #4b85ba;
   font-size: 16px;
   line-height: 1;
@@ -702,7 +702,7 @@ h2 {
 }
 
 #index_complete {
-  background: url("images/help.gif") no-repeat left center;
+  background: url("#{$path-img}/help.gif") no-repeat left center;
   color: #F57710;
   font-size: 16px;
   line-height: 1;
@@ -979,12 +979,12 @@ h2 {
   width: 520px;
 
   &.published {
-    background: url("images/published.gif") no-repeat left center;
+    background: url("#{$path-img}/published.gif") no-repeat left center;
     padding: 1px 0 2px 20px;
   }
 
   &.unpublished {
-    background: url("images/unpublished.gif") no-repeat left center;
+    background: url("#{$path-img}/unpublished.gif") no-repeat left center;
     padding: 1px 0 2px 20px;
   }
 
@@ -1803,7 +1803,7 @@ ul {
 }
 
 #tl_ajaxBox {
-  background: #fff url("images/loading.gif") no-repeat right center;
+  background: #fff url("#{$path-img}/loading.gif") no-repeat right center;
   border-radius: 6px;
   border: 2px solid #666;
   font-family: "Trebuchet MS", Verdana, sans-serif;
@@ -1909,12 +1909,12 @@ ul {
   padding: 7px 6px;
 
   .open {
-    background: url("images/manager.gif") left center no-repeat;
+    background: url("#{$path-img}/manager.gif") left center no-repeat;
     padding: 2px 0 3px 20px;
   }
 
   .close {
-    background: url("images/back.gif") left center no-repeat;
+    background: url("#{$path-img}/back.gif") left center no-repeat;
     padding: 2px 0 3px 20px;
   }
 
@@ -1946,71 +1946,71 @@ a {
   &.navigation {
 
     &.article {
-      background-image: url("images/article.gif");
+      background-image: url("#{$path-img}/article.gif");
     }
 
     &.news {
-      background-image: url("images/news.gif");
+      background-image: url("#{$path-img}/news.gif");
     }
 
     &.flash {
-      background-image: url("images/flash.gif");
+      background-image: url("#{$path-img}/flash.gif");
     }
 
     &.form {
-      background-image: url("images/form.gif");
+      background-image: url("#{$path-img}/form.gif");
     }
 
     &.themes {
-      background-image: url("images/themes.gif");
+      background-image: url("#{$path-img}/themes.gif");
     }
 
     &.page {
-      background-image: url("images/page.gif");
+      background-image: url("#{$path-img}/page.gif");
     }
 
     &.member {
-      background-image: url("images/member.gif");
+      background-image: url("#{$path-img}/member.gif");
     }
 
     &.mgroup {
-      background-image: url("images/mgroup.gif");
+      background-image: url("#{$path-img}/mgroup.gif");
     }
 
     &.user {
-      background-image: url("images/user.gif");
+      background-image: url("#{$path-img}/user.gif");
     }
 
     &.group {
-      background-image: url("images/group.gif");
+      background-image: url("#{$path-img}/group.gif");
     }
 
     &.files {
-      background-image: url("images/files.gif");
+      background-image: url("#{$path-img}/files.gif");
     }
 
     &.log {
-      background-image: url("images/log.gif");
+      background-image: url("#{$path-img}/log.gif");
     }
 
     &.settings {
-      background-image: url("images/settings.gif");
+      background-image: url("#{$path-img}/settings.gif");
     }
 
     &.maintenance {
-      background-image: url("images/cache.gif");
+      background-image: url("#{$path-img}/cache.gif");
     }
 
     &.undo {
-      background-image: url("images/undo.gif");
+      background-image: url("#{$path-img}/undo.gif");
     }
 
     &.login {
-      background-image: url("images/login.gif");
+      background-image: url("#{$path-img}/login.gif");
     }
 
     &.tpl_editor {
-      background-image: url("images/template_editor.gif");
+      background-image: url("#{$path-img}/template_editor.gif");
     }
 
   }
@@ -2144,69 +2144,69 @@ a {
 }
 
 .header_home {
-  background-image: url("images/home.gif");
+  background-image: url("#{$path-img}/home.gif");
 }
 
 .header_user {
-  background-image: url("images/login.gif");
+  background-image: url("#{$path-img}/login.gif");
 }
 
 .header_preview {
-  background-image: url("images/preview.gif");
+  background-image: url("#{$path-img}/preview.gif");
 }
 
 .header_clipboard {
-  background-image: url("images/clipboard.gif");
+  background-image: url("#{$path-img}/clipboard.gif");
 }
 
 .header_logout {
-  background-image: url("images/logout.gif");
+  background-image: url("#{$path-img}/logout.gif");
 }
 
 .header_back {
-  background-image: url("images/back.gif");
+  background-image: url("#{$path-img}/back.gif");
 }
 
 .header_new {
-  background-image: url("images/new.gif");
+  background-image: url("#{$path-img}/new.gif");
   padding-left: 18px;
 }
 
 .header_rss {
-  background-image: url("images/rss.gif");
+  background-image: url("#{$path-img}/rss.gif");
 }
 
 .header_edit_all {
-  background-image: url("images/all.gif");
+  background-image: url("#{$path-img}/all.gif");
 }
 
 .header_delete_all {
-  background-image: url("images/deleteAll.gif");
+  background-image: url("#{$path-img}/deleteAll.gif");
 }
 
 .header_new_folder {
-  background-image: url("images/newfolder.gif");
+  background-image: url("#{$path-img}/newfolder.gif");
 }
 
 .header_css_import {
-  background-image: url("images/cssimport.gif");
+  background-image: url("#{$path-img}/cssimport.gif");
 }
 
 .header_theme_import {
-  background-image: url("images/theme_import.gif");
+  background-image: url("#{$path-img}/theme_import.gif");
 }
 
 .header_store {
-  background-image: url("images/store.gif");
+  background-image: url("#{$path-img}/store.gif");
   padding-left: 18px;
 }
 
 .header_toggle {
-  background: url("images/folPlus.gif") no-repeat -1px center;
+  background: url("#{$path-img}/folPlus.gif") no-repeat -1px center;
 }
 
 .header_sync {
-  background-image: url("images/sync.gif");
+  background-image: url("#{$path-img}/sync.gif");
 }
 
 .tl_news_published,
@@ -2215,7 +2215,7 @@ a {
 }
 
 .tl_news_published {
-  background: url("images/news.gif") no-repeat left center;
+  background: url("#{$path-img}/news.gif") no-repeat left center;
 }
 
 .tl_text_trbl,
@@ -2223,7 +2223,7 @@ a {
 .tl_imageSize_1,
 #ctrl_gradient input,
 #ctrl_playerSize input {
-  background: url("images/hints.gif") no-repeat -20px 20px;
+  background: url("#{$path-img}/hints.gif") no-repeat -20px 20px;
 }
 
 #ctrl_playerSize_0 {
@@ -2316,7 +2316,7 @@ fieldset {
 
     > legend,
     > legend {
-      background: url("images/palOpen.gif") left center no-repeat;
+      background: url("#{$path-img}/palOpen.gif") left center no-repeat;
       color: #F7642A;
       cursor: pointer;
       padding-left: 18px;
@@ -2339,7 +2339,7 @@ fieldset {
     }
 
     > legend {
-      background: url("images/palCollapsed.gif") left center no-repeat;
+      background: url("#{$path-img}/palCollapsed.gif") left center no-repeat;
     }
 
   }

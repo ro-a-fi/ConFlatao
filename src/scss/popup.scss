@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-  background: url("images/help.gif") left center no-repeat;
+  background: url("#{$path-img}/help.gif") left center no-repeat;
   color: #8ab858;
   font-size: 14px;
   margin: 18px 18px 12px;
