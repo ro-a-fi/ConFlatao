@@ -183,7 +183,7 @@ strong {
     border-top: 1px solid rgba(255, 255, 255, .066);
     height: 70%;
     height: calc(100% - 143px);
-    margin-top: 0px !important;
+    margin-top: 0 !important;
     overflow: scroll;
     overflow-x: hidden;
     text-indent: 8px;
@@ -818,7 +818,7 @@ h2 {
 }
 
 .tl_folder_tlist {
-  border-top: 0px solid #e5e5e5;
+  border-top: 0 solid #e5e5e5;
 }
 
 .tl_file,
