@@ -51,9 +51,9 @@ pre,
 figure,
 ul,
 li {
-  -webkit-font-smoothing: subpixel-antialiased;
   color: $base-color;
   font-size: $base-font-size;
+  -webkit-font-smoothing: subpixel-antialiased;
   margin: 0;
   padding: 0;
 }
@@ -270,8 +270,8 @@ fieldset {
 .tl_text_trbl,
 .tl_text_interval,
 .tl_textarea {
-  border-radius: 3px;
   border: 1px solid #aaa;
+  border-radius: 3px;
   padding: 2px 3px;
 
   &:focus {
@@ -365,8 +365,8 @@ pre,
 .tl_select_column,
 .tl_select_unit,
 .tl_select_interval {
-  border-radius: 3px;
   border: 1px solid #aaa;
+  border-radius: 3px;
   padding: 1px;
 
   &[disabled] {
@@ -490,8 +490,8 @@ pre,
 .tl_submit {
   background: #eee;
   background-image: linear-gradient(to top, #ccc 0, #eee 60%);
-  border-radius: 3px;
   border: 1px solid #aaa;
+  border-radius: 3px;
   color: $link-color;
   cursor: pointer;
   line-height: 1;
