@@ -34,8 +34,8 @@
 
 @font-face {
   font-family: 'dripicons';
-  src:url('#{$path-font}/dripicons/dripicons.eot');
-  src:url('#{$path-font}/dripicons/dripicons.eot?#iefix') format('embedded-opentype'),
+  src: url('#{$path-font}/dripicons/dripicons.eot');
+  src: url('#{$path-font}/dripicons/dripicons.eot?#iefix') format('embedded-opentype'),
   url('#{$path-font}/dripicons/dripicons.ttf') format('truetype'),
   url('#{$path-font}/dripicons/dripicons.svg#dripicons') format('svg'),
   url('#{$path-font}/dripicons/dripicons.woff') format('woff');
@@ -620,30 +620,30 @@ a {
 }
 
 .tl_tip {
-  cursor:pointer;
-  height:13px;
-  overflow:hidden;
+  cursor: pointer;
+  height: 13px;
+  overflow: hidden;
 }
 
 .tip-wrap {
-  z-index:99;
+  z-index: 99;
 }
 
 .tip {
   background: rgba(0, 0, 0, .9);
   border-radius: 3px;
-  margin-left:12px;
-  margin-top:4px;
-  max-width:690px;
+  margin-left: 12px;
+  margin-top: 4px;
+  max-width: 690px;
   padding: 3px 6px;
 
   div {
-    line-height:1.3;
+    line-height: 1.3;
   }
 
   div,
   a {
-    color:#fff;
+    color: #fff;
   }
 
 }
