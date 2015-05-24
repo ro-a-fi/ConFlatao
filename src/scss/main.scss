@@ -137,7 +137,7 @@ strong {
 #left {
   background: $left-color-bg;
   background-image: linear-gradient(to top, #1c273e 0%, #24305a 100%);
-  box-shadow: inset -2px -3px 5px rgba(0,0,0, .4);
+  box-shadow: inset -2px -3px 5px rgba(0, 0, 0, .4);
   height: 100%;
   left: 0;
   padding-bottom: 74px;
@@ -215,7 +215,7 @@ strong {
 
     a {
       padding-left: 32px;
-      color: rgba(225,225,255,.5);
+      color: rgba(225, 225, 255, .5);
       font-weight: normal;
       line-height: 32px;
 
@@ -627,7 +627,7 @@ h2 {
 
 .tl_submit_container {
   background: #fff;
-  background: rgba(255,255,255,.87);
+  background: rgba(255, 255, 255, .87);
   border-top: 1px solid #e5e5e5;
   padding: 14px 18px;
 }
