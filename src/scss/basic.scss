@@ -116,6 +116,16 @@ a {
     color: $link-color-hover;
   }
 
+  &.tl_submit {
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+    font-size: 12px;
+    padding: 4px 12px 4px 13px;
+  }
+
+  &.tl_submit:hover {
+    color: $link-color;
+  }
+
 }
 
 hr {
@@ -260,6 +270,15 @@ fieldset {
   height: 240px;
   width: 50%;
   width: calc(50% + 312px);
+
+  &.monospace {
+
+    &:focus {
+      background: 0;
+    }
+
+  }
+
 }
 
 .tl_text,
@@ -327,10 +346,6 @@ pre,
 .tl_textarea.monospace {
   font-family: Courier, monospace;
   font-size: 12px;
-}
-
-.tl_textarea.monospace:focus {
-  background: 0;
 }
 
 .tl_select,
@@ -497,39 +512,6 @@ pre,
   line-height: 1;
   padding: 5px 12px 5px 13px;
   text-shadow: 1px 1px 0 #eee;
-}
-
-a {
-
-  &.tl_submit {
-    font-family: 'Trebuchet MS', Verdana, sans-serif;
-    font-size: 12px;
-    padding: 4px 12px 4px 13px;
-  }
-
-  &.tl_submit:hover {
-    color: $link-color;
-  }
-
-}
-
-.firefox {
-
-  input.tl_submit {
-    padding: 2px 12px 2px 13px;
-  }
-
-}
-
-.opera {
-
-  input.tl_submit {
-    padding: 4px 12px 4px 13px;
-  }
-
-}
-
-.tl_submit {
 
   &:focus,
   &:hover {
@@ -547,6 +529,22 @@ a {
     color: #999;
     cursor: default;
     text-shadow: none;
+  }
+
+}
+
+.firefox {
+
+  input.tl_submit {
+    padding: 2px 12px 2px 13px;
+  }
+
+}
+
+.opera {
+
+  input.tl_submit {
+    padding: 4px 12px 4px 13px;
   }
 
 }
