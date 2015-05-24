@@ -630,7 +630,7 @@ a {
 }
 
 .tip {
-  background: rgba(0,0,0,0.9);
+  background: rgba(0,0,0, .9);
   border-radius: 3px;
   margin-left:12px;
   margin-top:4px;
@@ -649,7 +649,7 @@ a {
 }
 
 .tip-top {
-  border-bottom: 7px solid rgba(0,0,0,0.9);
+  border-bottom: 7px solid rgba(0,0,0, .9);
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
   height: 6px;

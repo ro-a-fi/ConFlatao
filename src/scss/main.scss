@@ -137,7 +137,7 @@ strong {
 #left {
   background: $left-color-bg;
   background-image: linear-gradient(to top, #1c273e 0%, #24305a 100%);
-  box-shadow: inset -2px -3px 5px rgba(0,0,0,0.4);
+  box-shadow: inset -2px -3px 5px rgba(0,0,0, .4);
   height: 100%;
   left: 0;
   padding-bottom: 74px;
@@ -161,8 +161,8 @@ strong {
   }
 
   .tl_level_1 {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.066);
-    border-top: 1px solid rgba(255, 255, 255, 0.066);
+    border-bottom: 1px solid rgba(255, 255, 255, .066);
+    border-top: 1px solid rgba(255, 255, 255, .066);
     height: 70%;
     height: calc(100% - 143px);
     margin-top: 0px !important;
@@ -182,13 +182,13 @@ strong {
 
     a {
       font-size:16px;
-      background: rgba(255, 255, 255, 0.025);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.066);
+      background: rgba(255, 255, 255, .025);
+      border-bottom: 1px solid rgba(255, 255, 255, .066);
       line-height: 25px;
       padding: 6px !important;
 
       &:hover {
-        background: rgba(0, 0, 0, 0.075);
+        background: rgba(0, 0, 0, .075);
       }
 
     }
@@ -196,16 +196,16 @@ strong {
     img {
       margin-bottom: -4px;
       margin-right: 4px;
-      opacity: 0.33;
+      opacity: .33;
     }
 
   }
 
   .tl_level_2 {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.066);
+    border-bottom: 1px solid rgba(255, 255, 255, .066);
 
     li {
-      border-bottom: 1px solid rgba(255, 255, 255, 0.066);
+      border-bottom: 1px solid rgba(255, 255, 255, .066);
       text-indent: 3px;
     }
 
@@ -215,17 +215,17 @@ strong {
 
     a {
       padding-left: 32px;
-      color: rgba(225,225,255,0.5);
+      color: rgba(225,225,255,.5);
       font-weight: normal;
       line-height: 32px;
 
       &:hover {
-        background: rgba(0, 0, 0, 0.125);
+        background: rgba(0, 0, 0, .125);
         color: #fff;
       }
 
       &.active {
-        background: rgba(0, 0, 0, 0.225);
+        background: rgba(0, 0, 0, .225);
         color: #fff;
       }
 
@@ -627,7 +627,7 @@ h2 {
 
 .tl_submit_container {
   background: #fff;
-  background: rgba(255,255,255,0.87);
+  background: rgba(255,255,255,.87);
   border-top: 1px solid #e5e5e5;
   padding: 14px 18px;
 }
@@ -2114,7 +2114,7 @@ a {
 
   &:disabled {
     background: transparent none;
-    opacity: 0.5;
+    opacity: .5;
   }
 
 }
@@ -2545,7 +2545,7 @@ fieldset {
     .tl_level_1_group {
 
       a {
-        border-top: 1px solid rgba(255, 255, 255, 0.067);
+        border-top: 1px solid rgba(255, 255, 255, .067);
       }
 
     }
