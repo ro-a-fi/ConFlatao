@@ -41,7 +41,6 @@ strong {
   padding-right: 2px;
   position: relative;
   width: 75%;
-  width: calc(100% - 290px);
   width: calc(100% - 242px);
   z-index: 10;
 }
@@ -70,8 +69,8 @@ strong {
     padding: 0 8px;
 
     a {
-      border-radius: 3px;
       border: 1px solid #888;
+      border-radius: 3px;
       color: #4d555b;
       margin-right: 2px;
 
@@ -98,8 +97,8 @@ strong {
   border-top: 1px solid #e5e5e5;
 
   div {
-    padding: 20px 8px 34px 14px;
     margin: 0;
+    padding: 20px 8px 34px 14px;
     text-align: right;
   }
 
@@ -185,8 +184,8 @@ strong {
     height: 70%;
     height: calc(100% - 143px);
     margin-top: 0px !important;
-    overflow-x: hidden;
     overflow: scroll;
+    overflow-x: hidden;
     text-indent: 8px;
     width: 260px;
 
@@ -200,9 +199,9 @@ strong {
   .tl_level_1_group {
 
     a {
-      font-size:16px;
       background: rgba(255, 255, 255, .025);
       border-bottom: 1px solid rgba(255, 255, 255, .066);
+      font-size:16px;
       line-height: 25px;
       padding: 6px !important;
 
@@ -233,10 +232,10 @@ strong {
     }
 
     a {
-      padding-left: 32px;
       color: rgba(225, 225, 255, .5);
       font-weight: normal;
       line-height: 32px;
+      padding-left: 32px;
 
       &:hover {
         background: rgba(0, 0, 0, .125);
@@ -333,8 +332,8 @@ h2 {
 .tl_confirm,
 .tl_info,
 .tl_new {
-  border-radius: 3px;
   border: 1px solid #e5e5e5;
+  border-radius: 3px;
   margin: 1px 0 0;
   padding: 4px 5px 5px 25px;
 }
