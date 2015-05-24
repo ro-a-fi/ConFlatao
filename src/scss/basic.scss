@@ -1,45 +1,47 @@
 // Contao Open Source CMS,  (c) 2005-2013 Leo Feyer,  LGPL license
 
+@import "variables";
+
 @font-face {
   font-family: 'Source Sans Pro';
-  src: url('#{$path-font}/sourcesanspro/sourcesanspro-bold-webfont.eot');
-  src: url('#{$path-font}/sourcesanspro/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
-   url('#{$path-font}/sourcesanspro/sourcesanspro-bold-webfont.woff') format('woff'),
-   url('#{$path-font}/sourcesanspro/sourcesanspro-bold-webfont.ttf') format('truetype'),
-   url('#{$path-font}/sourcesanspro/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+  src: url('#{$path-fonts}/sourcesanspro/sourcesanspro-bold-webfont.eot');
+  src: url('#{$path-fonts}/sourcesanspro/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+   url('#{$path-fonts}/sourcesanspro/sourcesanspro-bold-webfont.woff') format('woff'),
+   url('#{$path-fonts}/sourcesanspro/sourcesanspro-bold-webfont.ttf') format('truetype'),
+   url('#{$path-fonts}/sourcesanspro/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Source Sans Pro';
-  src: url('#{$path-font}/sourcesanspro/sourcesanspro-light-webfont.eot');
-  src: url('#{$path-font}/sourcesanspro/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'),
-   url('#{$path-font}/sourcesanspro/sourcesanspro-light-webfont.woff') format('woff'),
-   url('#{$path-font}/sourcesanspro/sourcesanspro-light-webfont.ttf') format('truetype'),
-   url('#{$path-font}/sourcesanspro/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
+  src: url('#{$path-fonts}/sourcesanspro/sourcesanspro-light-webfont.eot');
+  src: url('#{$path-fonts}/sourcesanspro/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'),
+   url('#{$path-fonts}/sourcesanspro/sourcesanspro-light-webfont.woff') format('woff'),
+   url('#{$path-fonts}/sourcesanspro/sourcesanspro-light-webfont.ttf') format('truetype'),
+   url('#{$path-fonts}/sourcesanspro/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Source Sans Pro';
-  src: url('#{$path-font}/sourcesanspro/sourcesanspro-regular-webfont.eot');
-  src: url('#{$path-font}/sourcesanspro/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
-   url('#{$path-font}/sourcesanspro/sourcesanspro-regular-webfont.woff') format('woff'),
-   url('#{$path-font}/sourcesanspro/sourcesanspro-regular-webfont.ttf') format('truetype'),
-   url('#{$path-font}/sourcesanspro/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+  src: url('#{$path-fonts}/sourcesanspro/sourcesanspro-regular-webfont.eot');
+  src: url('#{$path-fonts}/sourcesanspro/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+   url('#{$path-fonts}/sourcesanspro/sourcesanspro-regular-webfont.woff') format('woff'),
+   url('#{$path-fonts}/sourcesanspro/sourcesanspro-regular-webfont.ttf') format('truetype'),
+   url('#{$path-fonts}/sourcesanspro/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'dripicons';
-  src: url('#{$path-font}/dripicons/dripicons.eot');
-  src: url('#{$path-font}/dripicons/dripicons.eot?#iefix') format('embedded-opentype'),
-  url('#{$path-font}/dripicons/dripicons.ttf') format('truetype'),
-  url('#{$path-font}/dripicons/dripicons.svg#dripicons') format('svg'),
-  url('#{$path-font}/dripicons/dripicons.woff') format('woff');
+  src: url('#{$path-fonts}/dripicons/dripicons.eot');
+  src: url('#{$path-fonts}/dripicons/dripicons.eot?#iefix') format('embedded-opentype'),
+  url('#{$path-fonts}/dripicons/dripicons.ttf') format('truetype'),
+  url('#{$path-fonts}/dripicons/dripicons.svg#dripicons') format('svg'),
+  url('#{$path-fonts}/dripicons/dripicons.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
