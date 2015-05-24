@@ -20,7 +20,7 @@ body {
 }
 
 a {
-  color: #4D555B;
+  color: #4d555b;
 
   &.navigation {
     color: #6e6e6e;
@@ -52,7 +52,7 @@ strong {
 
   h1 {
     border-bottom: 1px solid #e5e5e5;
-    color: #4D555B;
+    color: #4d555b;
     font-family: Arial;
     font-size: 10px;
     font-weight: normal;
@@ -72,7 +72,7 @@ strong {
     a {
       border-radius: 3px;
       border: 1px solid #888;
-      color: #4D555B;
+      color: #4d555b;
       margin-right: 2px;
 
       &:hover {
@@ -253,7 +253,7 @@ strong {
   }
 
   .active {
-    color: #F57710;
+    color: #f57710;
   }
 
 }
@@ -715,7 +715,7 @@ h2 {
 
 #index_complete {
   background: url('#{$path-img}/help.gif') no-repeat left center;
-  color: #F57710;
+  color: #f57710;
   font-size: 16px;
   line-height: 1;
   margin: 0 0 12px;
