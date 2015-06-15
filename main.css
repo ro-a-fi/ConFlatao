@@ -260,11 +260,11 @@ h2.sub_headline_index {
   background-image: none;
   border-top: 1px solid #e5e5e5;
   margin: 0;
-  padding: 8px 12px 10px; }
+  padding: .5rem 1rem; }
   .tl_permalert a {
     color: #555;
     float: right;
-    margin: 1px 3px 0 24px; }
+    margin: 0 .25rem 0 1.5rem; }
 
 .tl_panel,
 .tl_version_panel {
