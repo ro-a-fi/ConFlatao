@@ -60,6 +60,10 @@ li {
   padding: 0;
 }
 
+body {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family, $base-font-family-fallback;
+}
+
 img {
   border: 0;
 }

@@ -30,10 +30,13 @@ figure,
 ul,
 li {
   color: #4d555b;
-  font-size: 13px;
+  font-size: 0.875rem;
   -webkit-font-smoothing: subpixel-antialiased;
   margin: 0;
   padding: 0; }
+
+body {
+  font: 400 0.875rem/1.5 "Source Sans Pro", sans-serif; }
 
 img {
   border: 0; }
