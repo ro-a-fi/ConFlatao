@@ -165,12 +165,9 @@ strong {
 .opacity {
   opacity: .8; }
 
-h1.main_headline {
-  color: #4d555b;
-  font-size: 32px;
-  font-weight: 200;
+.main_headline {
   margin: 0;
-  padding: 22px 14px 0; }
+  padding: 1rem; }
 
 #tl_welcome,
 h2.sub_headline,
@@ -180,9 +177,9 @@ h2.sub_headline_index,
 h2.sub_headline_rss {
   background-image: none !important;
   color: #4d555b;
-  font-size: 22px;
-  margin: 3px 18px 9px;
-  padding: 6px 0 8px; }
+  font-size: 2rem;
+  margin: .25rem 1rem .5rem;
+  padding: .5rem 0 .5rem; }
 
 h2.sub_headline {
   background: url("images/current.gif") no-repeat left center; }

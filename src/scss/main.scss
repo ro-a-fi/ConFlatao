@@ -255,16 +255,9 @@ strong {
   opacity: .8;
 }
 
-h1 {
-
-  &.main_headline {
-    color: $base-color;
-    font-size: 32px;
-    font-weight: 200;
-    margin: 0;
-    padding: 22px 14px 0;
-  }
-
+.main_headline {
+  margin: 0;
+  padding: 1rem;
 }
 
 #tl_welcome,
@@ -275,9 +268,9 @@ h2.sub_headline_index,
 h2.sub_headline_rss {
   background-image: none !important;
   color: $base-color;
-  font-size: 22px;
-  margin: 3px 18px 9px;
-  padding: 6px 0 8px;
+  font-size: $headline-h1-font-size;
+  margin: .25rem 1rem .5rem;
+  padding: .5rem 0 .5rem;
 }
 
 h2 {
