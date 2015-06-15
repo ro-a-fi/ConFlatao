@@ -327,19 +327,14 @@ h2.sub_headline_index {
 
 .tl_subpanel {
   float: right; }
-  .tl_subpanel.tl_limit {
-    margin-top: 1px; }
   .tl_subpanel strong {
-    line-height: 21px;
-    margin-left: 6px; }
+    margin-left: .5rem; }
 
 .tl_submit_panel {
-  padding: 0 6px; }
+  padding: 0 .5rem; }
 
 .tl_img_submit {
-  position: relative;
-  top: 3px;
-  vertical-align: top; }
+  vertical-align: bottom; }
 
 .tl_panel .active,
 .tl_panel_bottom .active,
