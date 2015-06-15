@@ -21,13 +21,7 @@ strong {
 #header,
 #container,
 #footer {
-  float: left;
-  margin: 0 0 0 240px;
-  padding-right: 2px;
-  position: relative;
-  width: 75%;
-  width: calc(100% - 242px);
-  z-index: 10; }
+  margin: 0 0 0 18rem; }
 
 #header {
   background: #fff;
@@ -59,9 +53,7 @@ strong {
 
 #container {
   background: #fff;
-  box-shadow: 0 0 30px #bbb;
-  min-height: calc(100% - 71px - 47px);
-  z-index: 0; }
+  box-shadow: 0 0 30px #bbb; }
 
 #footer {
   background: #fff;
@@ -72,11 +64,7 @@ strong {
     text-align: right; }
 
 #main {
-  background: #fff;
-  float: left;
-  position: relative;
-  width: 100%;
-  z-index: 10; }
+  background: #fff; }
 
 .popup h1.main_headline {
   display: none; }
@@ -112,9 +100,7 @@ strong {
   padding-bottom: 74px;
   position: fixed;
   top: 0;
-  width: 25%;
-  width: calc(240px);
-  z-index: 0; }
+  width: 18rem; }
 
 #tl_navigation {
   background: url("images/logo-save.png") 0 -10px no-repeat;

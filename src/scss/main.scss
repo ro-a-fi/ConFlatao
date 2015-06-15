@@ -38,13 +38,7 @@ strong {
 #header,
 #container,
 #footer {
-  float: left;
-  margin: 0 0 0 240px;
-  padding-right: 2px;
-  position: relative;
-  width: 75%;
-  width: calc(100% - 242px);
-  z-index: 10;
+  margin: 0 0 0 $left-width;
 }
 
 #header {
@@ -90,8 +84,6 @@ strong {
 #container {
   background: $base-color-bg;
   box-shadow: 0 0 30px #bbb;
-  min-height: calc(100% - 71px - 47px);
-  z-index: 0;
 }
 
 #footer {
@@ -108,10 +100,6 @@ strong {
 
 #main {
   background: $base-color-bg;
-  float: left;
-  position: relative;
-  width: 100%;
-  z-index: 10;
 }
 
 .popup {
@@ -163,9 +151,7 @@ strong {
   padding-bottom: 74px;
   position: fixed;
   top: 0;
-  width: 25%;
-  width: calc(240px);
-  z-index: 0;
+  width: $left-width;
 }
 
 #tl_navigation {
