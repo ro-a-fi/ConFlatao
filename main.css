@@ -191,33 +191,38 @@ h2.sub_headline_index {
   background: url("images/index.gif") no-repeat left center; }
 
 .tl_message {
-  margin: 18px 18px 0; }
+  margin: 1rem 1rem 0; }
 
 .tl_gerror {
   background: url("images/error.gif") no-repeat left center;
-  margin: 12px 6px 6px;
-  padding: 2px 0 3px 20px; }
+  margin: 1rem .5rem .5rem;
+  padding: .25rem 0 .25rem 1.5rem; }
 
 .tl_error,
 .tl_confirm,
 .tl_info,
 .tl_new {
+  background-position: .5rem 50%;
+  background-repeat: no-repeat;
   border: 1px solid #e5e5e5;
-  border-radius: 3px;
-  margin: 1px 0 0;
-  padding: 4px 5px 5px 25px; }
+  margin: 0;
+  padding: .25rem .25rem .25rem 2rem; }
 
 .tl_error {
-  background: #faeeee url("images/error.gif") no-repeat 5px center; }
+  background-color: #faeeee;
+  background-image: url("images/error.gif"); }
 
 .tl_confirm {
-  background: #f3f8ee url("images/ok.gif") no-repeat 5px center; }
+  background-color: #f3f8ee;
+  background-image: url("images/ok.gif"); }
 
 .tl_info {
-  background: #eff5fa url("images/show.gif") no-repeat 6px center; }
+  background-color: #eff5fa;
+  background-image: url("images/show.gif"); }
 
 .tl_new {
-  background: #fff3e0 url("images/featured.gif") no-repeat 5px center; }
+  background-color: #fff3e0;
+  background-image: url("images/featured.gif"); }
 
 .tl_gerror,
 .tl_gerror a,
@@ -243,7 +248,7 @@ h2.sub_headline_index {
   #lu_message .tl_info {
     background-color: transparent;
     background-position: left center;
-    padding-left: 18px; }
+    padding-left: 1rem; }
 
 .nobg .tl_error,
 .nobg .tl_confirm,
