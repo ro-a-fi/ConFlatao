@@ -1421,11 +1421,7 @@ fieldset.collapsed {
   #header,
   #container,
   #footer {
-    float: none;
-    margin: 0 auto;
-    max-width: none;
-    padding: 0;
-    width: 100%; }
+    margin: 0 auto; }
 
   #header div {
     height: auto;
