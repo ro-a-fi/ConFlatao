@@ -94,7 +94,7 @@ strong {
   box-shadow: inset -2px -3px 5px rgba(0, 0, 0, 0.4);
   height: 100%;
   left: 0;
-  padding-bottom: 74px;
+  padding-bottom: 5rem;
   position: fixed;
   top: 0;
   width: 18rem; }
@@ -103,11 +103,11 @@ strong {
   background: url("images/logo-save.png") 0 -10px no-repeat;
   height: 100%;
   overflow: hidden;
-  padding-top: 89px; }
+  padding-top: 6.5rem; }
   #tl_navigation h1 {
     color: #fff;
     margin: 0;
-    padding: 4px 14px; }
+    padding: .25rem 1rem; }
   #tl_navigation .tl_level_1 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.066);
     border-top: 1px solid rgba(255, 255, 255, 0.066);
@@ -116,17 +116,16 @@ strong {
     margin-top: 0 !important;
     overflow: scroll;
     overflow-x: hidden;
-    text-indent: 8px;
-    width: 260px; }
+    text-indent: .5rem;
+    width: 110%; }
     #tl_navigation .tl_level_1 a {
       color: #fff;
       display: block; }
   #tl_navigation .tl_level_1_group a {
     background: rgba(255, 255, 255, 0.025);
     border-bottom: 1px solid rgba(255, 255, 255, 0.066);
-    font-size: 16px;
-    line-height: 25px;
-    padding: 6px !important; }
+    font-size: 1.15rem;
+    padding: .5rem; }
     #tl_navigation .tl_level_1_group a:hover {
       background: rgba(0, 0, 0, 0.075); }
   #tl_navigation .tl_level_1_group img {

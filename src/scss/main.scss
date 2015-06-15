@@ -144,7 +144,7 @@ strong {
   box-shadow: inset -2px -3px 5px rgba(0, 0, 0, .4);
   height: 100%;
   left: 0;
-  padding-bottom: 74px;
+  padding-bottom: 5rem;
   position: fixed;
   top: 0;
   width: $left-width;
@@ -154,12 +154,12 @@ strong {
   background: url('#{$path-img}/logo-save.png') 0 -10px no-repeat;
   height: 100%;
   overflow: hidden;
-  padding-top: 89px;
+  padding-top: 6.5rem;
 
   h1 {
     color: #fff;
     margin: 0;
-    padding: 4px 14px;
+    padding: .25rem 1rem;
   }
 
   .tl_level_1 {
@@ -170,8 +170,8 @@ strong {
     margin-top: 0 !important;
     overflow: scroll;
     overflow-x: hidden;
-    text-indent: 8px;
-    width: 260px;
+    text-indent: .5rem;
+    width: 110%;
 
     a {
       color: #fff;
@@ -185,9 +185,8 @@ strong {
     a {
       background: rgba(255, 255, 255, .025);
       border-bottom: 1px solid rgba(255, 255, 255, .066);
-      font-size: 16px;
-      line-height: 25px;
-      padding: 6px !important;
+      font-size: 1.15rem;
+      padding: .5rem;
 
       &:hover {
         background: rgba(0, 0, 0, .075);
