@@ -1313,7 +1313,7 @@ ul {
 .tl_listing li:hover,
 .tl_listing tr:hover td.tl_file_list:first-child {
   border-left: 2px solid $primary-color;
-  padding-left: .5rem;
+  margin-left: -2px;
 }
 
 .tree_view {

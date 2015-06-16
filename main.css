@@ -743,7 +743,7 @@ ul.level_9 .tl_left {
 .tl_listing li:hover,
 .tl_listing tr:hover td.tl_file_list:first-child {
   border-left: 2px solid #f7642a;
-  padding-left: .5rem; }
+  margin-left: -2px; }
 
 .tree_view .tl_listing .tl_left img {
   vertical-align: -.25rem; }
