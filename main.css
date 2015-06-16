@@ -499,9 +499,9 @@ h2.sub_headline_index {
 .tl_folder_tlist {
   background: #f9fafa;
   border-bottom: 1px solid #e5e5e5;
-  font-size: 16px;
+  font-size: 1.125rem;
   font-weight: 200;
-  padding: 7px 0; }
+  padding: .5rem 0; }
 
 .tl_folder_tlist {
   border-top: 0 solid #e5e5e5; }
@@ -510,13 +510,13 @@ h2.sub_headline_index {
 .tl_file_list {
   background: #fff;
   border-bottom: 1px solid #e5e5e5;
-  padding: 1px 0; }
+  padding: 0; }
 
 .tl_file_list {
-  padding: 2px 0 3px; }
+  padding: .125rem 0; }
 
 .tl_right_nowrap {
-  padding: 2px 0;
+  padding: .125rem 0;
   text-align: right;
   white-space: nowrap; }
 
