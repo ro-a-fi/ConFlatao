@@ -345,15 +345,15 @@ h2.sub_headline_index {
   width: 136px; }
 
 .tl_filter .tl_select {
-  margin: 0 2px;
+  margin: 0 .125rem;
   width: 125px; }
 
 .tl_limit .tl_select {
-  margin: 0 2px;
+  margin: 0 .125rem;
   width: 126px; }
 
 .tl_search .tl_text {
-  margin: 0 2px;
+  margin: 0 .125rem;
   width: 136px; }
 
 .styled_select b {
