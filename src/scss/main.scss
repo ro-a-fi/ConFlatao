@@ -901,15 +901,15 @@ h2 {
 .tl_content_header {
   background: #f6f6f6;
   border-bottom: 1px solid #e5e5e5;
-  font-size: 22px;
+  font-size: 1.5rem;
   font-weight: 200;
-  padding: 7px 6px;
+  padding: .5rem;
 }
 
 .tl_content {
   border-bottom: 1px solid #e5e5e5;
   overflow: hidden;
-  padding: 6px;
+  padding: .5rem;
   position: relative;
 
   &.wrapper_start,
@@ -931,19 +931,19 @@ h2 {
   &.wrapper_start {
 
     h1 {
-      margin: 0 0 9px 6px;
+      margin: 0 0 .5rem .5rem;
     }
 
   }
 
   h1 {
-    margin: 0 0 12px;
+    margin: 0 0 1rem;
     padding: 0;
   }
 
   pre {
-    margin-bottom: 3px;
-    margin-top: 3px;
+    margin-bottom: .25rem;
+    margin-top: .25rem;
     white-space: pre-wrap;
     word-break: break-all;
 
@@ -957,7 +957,7 @@ h2 {
     &.comment {
       color: #4b85ba;
       display: inline-block;
-      margin-bottom: 3px;
+      margin-bottom: .25rem;
     }
 
   }

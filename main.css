@@ -577,14 +577,14 @@ h2.sub_headline_index {
 .tl_content_header {
   background: #f6f6f6;
   border-bottom: 1px solid #e5e5e5;
-  font-size: 22px;
+  font-size: 1.5rem;
   font-weight: 200;
-  padding: 7px 6px; }
+  padding: .5rem; }
 
 .tl_content {
   border-bottom: 1px solid #e5e5e5;
   overflow: hidden;
-  padding: 6px;
+  padding: .5rem;
   position: relative; }
   .tl_content.wrapper_start, .tl_content.wrapper_separator, .tl_content.wrapper_stop {
     background: #f3f3f3; }
@@ -593,13 +593,13 @@ h2.sub_headline_index {
   .tl_content.wrapper_stop, .tl_content.wrapper_separator {
     border-top: 0; }
   .tl_content.wrapper_start h1 {
-    margin: 0 0 9px 6px; }
+    margin: 0 0 .5rem .5rem; }
   .tl_content h1 {
-    margin: 0 0 12px;
+    margin: 0 0 1rem;
     padding: 0; }
   .tl_content pre {
-    margin-bottom: 3px;
-    margin-top: 3px;
+    margin-bottom: .25rem;
+    margin-top: .25rem;
     white-space: pre-wrap;
     word-break: break-all; }
     .tl_content pre.disabled {
@@ -607,7 +607,7 @@ h2.sub_headline_index {
   .tl_content span.comment {
     color: #4b85ba;
     display: inline-block;
-    margin-bottom: 3px; }
+    margin-bottom: .25rem; }
 
 .no_padding {
   padding: 7px 6px; }
