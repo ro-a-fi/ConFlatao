@@ -572,20 +572,19 @@ h2 {
 .tl_xpl h3 {
   font-weight: 200;
   margin: 0;
-  padding: 14px 0 1px;
+  padding: 1rem 0 0;
 }
 
 .tl_box h4,
 .tl_tbox h4 {
-  font-size: 11px;
+  font-size: .875rem;
   font-weight: bold;
-  margin: 6px 0 0;
+  margin: .5rem 0 0;
   padding: 0;
 }
 
 .tl_tbox.theme_import h3,
-.tl_tbox.theme_import h4,
-.tl_tbox.theme_import p {
+.tl_tbox.theme_import h4 {
   line-height: 1.5;
 }
 
