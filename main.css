@@ -461,7 +461,7 @@ h2.sub_headline_index {
   .tl_listing li {
     list-style-type: none;
     margin: 0;
-    padding: 7px 6px; }
+    padding: .5rem; }
     .tl_listing li.parent {
       display: inline;
       padding-left: 0;
@@ -471,26 +471,26 @@ h2.sub_headline_index {
         margin-left: 0; }
     .tl_listing li.tl_folder_top:hover {
       border-left: 0;
-      padding-left: 7px; }
+      padding-left: .5rem; }
   .tl_listing tr.odd td {
     background-color: #f9fafa; }
   .tl_listing th,
   .tl_listing td {
-    padding: 7px 6px; }
+    padding: .5rem; }
   .tl_listing .tl_left {
     float: left;
-    margin-left: 43px;
-    text-indent: -43px;
+    margin-left: 3rem;
+    text-indent: -3rem;
     width: 270px; }
   .tl_listing .tl_right {
     float: right;
-    margin: 1px 0 -5px;
-    padding: 1px 0; }
+    margin: 0 0 -.5rem;
+    padding: 0; }
 
 .tl_listing_container {
   border-width: 1px 1px 0 1px;
   border: 1px solid #e5e5e5;
-  margin: 24px 18px; }
+  margin: 2rem 1rem; }
   .tl_listing_container .tl_content ul li > * {
     vertical-align: middle; }
 

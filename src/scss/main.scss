@@ -697,7 +697,7 @@ h2 {
   li {
     list-style-type: none;
     margin: 0;
-    padding: 7px 6px;
+    padding: .5rem;
 
     &.parent {
       display: inline;
@@ -715,7 +715,7 @@ h2 {
 
       &:hover {
         border-left: 0;
-        padding-left: 7px;
+        padding-left: .5rem;
       }
 
     }
@@ -736,20 +736,20 @@ h2 {
 
   th,
   td {
-    padding: 7px 6px;
+    padding: .5rem;
   }
 
   .tl_left {
     float: left;
-    margin-left: 43px;
-    text-indent: -43px;
+    margin-left: 3rem;
+    text-indent: -3rem;
     width: 270px;
   }
 
   .tl_right {
     float: right;
-    margin: 1px 0 -5px;
-    padding: 1px 0;
+    margin: 0 0 -.5rem;
+    padding: 0;
   }
 
 }
@@ -757,7 +757,7 @@ h2 {
 .tl_listing_container {
   border-width: 1px 1px 0 1px;
   border: 1px solid #e5e5e5;
-  margin: 24px 18px;
+  margin: 2rem 1rem;
 
   .tl_content {
 
