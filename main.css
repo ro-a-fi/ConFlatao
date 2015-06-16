@@ -610,36 +610,35 @@ h2.sub_headline_index {
     margin-bottom: .25rem; }
 
 .no_padding {
-  padding: 7px 6px; }
+  padding: .5rem; }
 
 .tl_content_left {
   float: left; }
 
-.webkit .tl_content_left {
-  margin-top: 1px; }
-
 .tl_content_right {
   float: right;
-  margin-left: 12px;
+  margin-left: 1rem;
   text-align: right; }
 
 .cte_type {
   color: #c6c6c6;
-  font-size: 10px;
-  margin-bottom: 9px;
+  font-size: .75rem;
+  margin-bottom: .75rem;
   width: 520px; }
+  .cte_type.published, .cte_type.unpublished {
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    padding: 0 0 .125rem 1.5rem; }
   .cte_type.published {
-    background: url("images/published.gif") no-repeat left center;
-    padding: 1px 0 2px 20px; }
+    background-image: url("images/published.gif"); }
   .cte_type.unpublished {
-    background: url("images/unpublished.gif") no-repeat left center;
-    padding: 1px 0 2px 20px; }
+    background-image: url("images/unpublished.gif"); }
   .cte_type.published, .cte_type.published a {
     color: #f57710;
-    font-size: 11px; }
+    font-size: .875rem; }
   .cte_type.unpublished, .cte_type.unpublished a {
     color: #c33;
-    font-size: 11px; }
+    font-size: .875rem; }
 
 .limit_height {
   overflow: hidden; }
@@ -647,10 +646,10 @@ h2.sub_headline_index {
     position: relative; }
 
 .limit_toggler {
-  margin-top: 9px; }
+  margin-top: .75rem; }
 
 .tl_form_field_preview td {
-  padding-right: 6px; }
+  padding-right: .5rem; }
   .tl_form_field_preview td.col_0 {
     min-width: 180px; }
 .tl_form_field_preview .text,
@@ -664,18 +663,18 @@ h2.sub_headline_index {
 .tl_folder_top {
   background: #f9fafa;
   border-bottom: 1px solid #e5e5e5;
-  font-size: 22px;
+  font-size: 1.5rem;
   font-weight: 200;
-  padding: 1px 0; }
+  padding: 0; }
 
 .tl_folder {
   background: #f9fafa;
   border-bottom: 1px solid #e5e5e5;
-  padding: 1px 0; }
+  padding: 0; }
 
 .tl_tree_xtnd .tl_file .tl_left {
-  margin-left: 22px;
-  text-indent: -22px; }
+  margin-left: 1.5rem;
+  text-indent: -1.5rem; }
 .tl_tree_xtnd .tl_folder .tl_left {
   width: 460px; }
 .tl_tree_xtnd ul.level_1 .tl_folder .tl_left {
@@ -744,13 +743,12 @@ ul.level_9 .tl_left {
 .tl_listing li:hover,
 .tl_listing tr:hover td.tl_file_list:first-child {
   border-left: 2px solid #f7642a;
-  margin-left: -1px;
-  padding-left: 5px; }
+  padding-left: .5rem; }
 
 .tree_view .tl_listing .tl_left img {
-  vertical-align: -5px; }
+  vertical-align: -.25rem; }
 .tree_view .tl_listing .tl_folder_top img {
-  vertical-align: -2px; }
+  vertical-align: -.125rem; }
 
 label.tl_change_selected {
   color: #999;
@@ -760,77 +758,75 @@ label.tl_change_selected {
 #tl_breadcrumb {
   background: #ffd;
   border: 1px solid #d49822;
-  margin: 0 0 12px;
+  margin: 0 0 1rem;
   overflow: hidden;
-  padding: 3px; }
+  padding: .25rem; }
   #tl_breadcrumb li {
     float: left;
     list-style-type: none;
     margin: 0;
-    padding: 0 3px; }
+    padding: 0 .25rem; }
     #tl_breadcrumb li img {
-      vertical-align: -5px; }
+      vertical-align: -.25rem; }
 
 .selector_container ul {
   list-style-type: none;
-  margin: 0 0 9px;
+  margin: 0 0 .75rem;
   overflow: hidden;
   padding: 0; }
 .selector_container li {
-  line-height: 18px;
-  margin-right: 9px; }
+  margin-right: .75rem; }
 .selector_container img {
   vertical-align: top; }
 
 .gimage {
   border: 1px solid #808080;
-  margin: 2px; }
+  margin: .125rem; }
 
 #tl_soverview {
-  margin: 18px; }
+  margin: 1rem; }
   #tl_soverview table {
     border: 1px solid #e5e5e5;
     border-width: 0 1px; }
 
 #tl_messages,
 #tl_shortcuts {
-  margin-bottom: 24px; }
+  margin-bottom: 2rem; }
 
 #tl_messages h2,
 #tl_shortcuts h2,
 #tl_versions h2 {
   background: #f9fafa;
   border: 1px solid #e5e5e5;
-  margin: 18px 0 6px;
-  padding: 7px 6px; }
+  margin: 1rem 0 .5rem;
+  padding: .5rem; }
 
 #tl_shortcuts p,
 #tl_versions p {
-  padding-left: 6px;
-  padding-right: 6px; }
+  padding-left: .5rem;
+  padding-right: .5rem; }
 
 #tl_shortcuts p a {
   text-decoration: underline; }
 
 #tl_versions {
-  margin-top: 24px; }
+  margin-top: 2rem; }
   #tl_versions th,
   #tl_versions td {
     border-bottom: 1px solid #e5e5e5; }
   #tl_versions th {
     background: #f6f6f6;
     border-top: 1px solid #e5e5e5;
-    padding: 2px 3px 3px; }
+    padding: .25rem; }
   #tl_versions td {
-    padding: 7px 6px; }
+    padding: .5rem; }
     #tl_versions td:first-child {
       white-space: nowrap; }
     #tl_versions td:last-child {
       white-space: nowrap;
       width: 32px; }
     #tl_versions td img {
-      position: relative;
-      top: 1px; }
+      position: relative; }
 
 .tl_chmod th,
 .tl_chmod td {
@@ -849,12 +845,11 @@ label.tl_change_selected {
   margin: 0; }
   .tl_modulewizard td,
   .tl_modulewizard th {
-    padding: 0 6px 1px 0; }
+    padding: 0 .5rem 0 0; }
   .tl_modulewizard th {
     font-weight: normal; }
   .tl_modulewizard img {
-    position: relative;
-    top: 1px; }
+    position: relative; }
   .tl_modulewizard .tl_select {
     width: 400px; }
 
@@ -874,7 +869,7 @@ label.tl_change_selected {
   cursor: pointer;
   display: inline; }
 .js .tl_checkbox_wizard label {
-  padding-left: 34px; }
+  padding-left: 2.5rem; }
 
 .tl_optionwizard {
   margin: 0; }
@@ -882,31 +877,30 @@ label.tl_change_selected {
     vertical-align: top; }
   .tl_optionwizard td,
   .tl_optionwizard th {
-    padding: 0 4px 1px 0; }
+    padding: 0 .25rem 0 0; }
   .tl_optionwizard th {
     font-weight: normal;
     text-align: left; }
   .tl_optionwizard img {
-    position: relative;
-    top: 1px; }
+    position: relative; }
 
 .fw_checkbox {
-  margin: 0 1px; }
+  margin: 0; }
 
 #tl_tablewizard {
   overflow: auto;
-  padding-bottom: 2px;
+  padding-bottom: .125rem;
   width: 690px; }
 
 .tl_tablewizard td {
-  padding: 2px 4px 0 0; }
+  padding: .125rem .25rem 0 0; }
   .tl_tablewizard td.tcontainer {
     height: 78px;
     vertical-align: top;
     width: 148px; }
 
 .tl_listwizard li {
-  padding-bottom: 1px; }
+  padding-bottom: 0; }
 .tl_listwizard .drag-handle {
   top: 3px; }
 .tl_listwizard .tl_text {

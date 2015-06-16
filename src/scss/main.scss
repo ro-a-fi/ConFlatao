@@ -965,53 +965,50 @@ h2 {
 }
 
 .no_padding {
-  padding: 7px 6px;
+  padding: .5rem;
 }
 
 .tl_content_left {
   float: left;
 }
 
-.webkit {
-
-  .tl_content_left {
-    margin-top: 1px;
-  }
-
-}
-
 .tl_content_right {
   float: right;
-  margin-left: 12px;
+  margin-left: 1rem;
   text-align: right;
 }
 
 .cte_type {
   color: #c6c6c6;
-  font-size: 10px;
-  margin-bottom: 9px;
+  font-size: .75rem;
+  margin-bottom: .75rem;
   width: 520px;
 
+  &.published,
+  &.unpublished {
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    padding: 0 0 .125rem 1.5rem;
+  }
+
   &.published {
-    background: url('#{$path-img}/published.gif') no-repeat left center;
-    padding: 1px 0 2px 20px;
+    background-image: url('#{$path-img}/published.gif');
   }
 
   &.unpublished {
-    background: url('#{$path-img}/unpublished.gif') no-repeat left center;
-    padding: 1px 0 2px 20px;
+    background-image: url('#{$path-img}/unpublished.gif');
   }
 
   &.published,
   &.published a {
     color: #f57710;
-    font-size: 11px;
+    font-size: .875rem;
   }
 
   &.unpublished,
   &.unpublished a {
     color: $mandatory-color;
-    font-size: 11px;
+    font-size: .875rem;
   }
 
 }
@@ -1026,13 +1023,13 @@ h2 {
 }
 
 .limit_toggler {
-  margin-top: 9px;
+  margin-top: .75rem;
 }
 
 .tl_form_field_preview {
 
   td {
-    padding-right: 6px;
+    padding-right: .5rem;
 
     &.col_0 {
       min-width: 180px;
@@ -1058,15 +1055,15 @@ h2 {
 .tl_folder_top {
   background: #f9fafa;
   border-bottom: 1px solid #e5e5e5;
-  font-size: 22px;
+  font-size: 1.5rem;
   font-weight: 200;
-  padding: 1px 0;
+  padding: 0;
 }
 
 .tl_folder {
   background: #f9fafa;
   border-bottom: 1px solid #e5e5e5;
-  padding: 1px 0;
+  padding: 0;
 }
 
 .tl_tree_xtnd {
@@ -1074,8 +1071,8 @@ h2 {
   .tl_file {
 
     .tl_left {
-      margin-left: 22px;
-      text-indent: -22px;
+      margin-left: 1.5rem;
+      text-indent: -1.5rem;
     }
 
   }
@@ -1316,8 +1313,7 @@ ul {
 .tl_listing li:hover,
 .tl_listing tr:hover td.tl_file_list:first-child {
   border-left: 2px solid $primary-color;
-  margin-left: -1px;
-  padding-left: 5px;
+  padding-left: .5rem;
 }
 
 .tree_view {
@@ -1327,7 +1323,7 @@ ul {
     .tl_left {
 
       img {
-        vertical-align: -5px;
+        vertical-align: -.25rem;
       }
 
     }
@@ -1335,7 +1331,7 @@ ul {
     .tl_folder_top {
 
       img {
-        vertical-align: -2px;
+        vertical-align: -.125rem;
       }
 
     }
@@ -1357,18 +1353,18 @@ label {
 #tl_breadcrumb {
   background: #ffd;
   border: 1px solid #d49822;
-  margin: 0 0 12px;
+  margin: 0 0 1rem;
   overflow: hidden;
-  padding: 3px;
+  padding: .25rem;
 
   li {
     float: left;
     list-style-type: none;
     margin: 0;
-    padding: 0 3px;
+    padding: 0 .25rem;
 
     img {
-      vertical-align: -5px;
+      vertical-align: -.25rem;
     }
 
   }
@@ -1379,14 +1375,13 @@ label {
 
   ul {
     list-style-type: none;
-    margin: 0 0 9px;
+    margin: 0 0 .75rem;
     overflow: hidden;
     padding: 0;
   }
 
   li {
-    line-height: 18px;
-    margin-right: 9px;
+    margin-right: .75rem;
   }
 
   img {
@@ -1397,11 +1392,11 @@ label {
 
 .gimage {
   border: 1px solid #808080;
-  margin: 2px;
+  margin: .125rem;
 }
 
 #tl_soverview {
-  margin: 18px;
+  margin: 1rem;
 
   table {
     border: 1px solid #e5e5e5;
@@ -1412,7 +1407,7 @@ label {
 
 #tl_messages,
 #tl_shortcuts {
-  margin-bottom: 24px;
+  margin-bottom: 2rem;
 }
 
 #tl_messages h2,
@@ -1420,14 +1415,14 @@ label {
 #tl_versions h2 {
   background: #f9fafa;
   border: 1px solid #e5e5e5;
-  margin: 18px 0 6px;
-  padding: 7px 6px;
+  margin: 1rem 0 .5rem;
+  padding: .5rem;
 }
 
 #tl_shortcuts p,
 #tl_versions p {
-  padding-left: 6px;
-  padding-right: 6px;
+  padding-left: .5rem;
+  padding-right: .5rem;
 }
 
 #tl_shortcuts {
@@ -1443,7 +1438,7 @@ label {
 }
 
 #tl_versions {
-  margin-top: 24px;
+  margin-top: 2rem;
 
   th,
   td {
@@ -1453,11 +1448,11 @@ label {
   th {
     background: #f6f6f6;
     border-top: 1px solid #e5e5e5;
-    padding: 2px 3px 3px;
+    padding: .25rem;
   }
 
   td {
-    padding: 7px 6px;
+    padding: .5rem;
 
     &:first-child {
       white-space: nowrap;
@@ -1470,7 +1465,6 @@ label {
 
     img {
       position: relative;
-      top: 1px;
     }
 
   }
@@ -1504,7 +1498,7 @@ label {
 
   td,
   th {
-    padding: 0 6px 1px 0;
+    padding: 0 .5rem 0 0;
   }
 
   th {
@@ -1513,7 +1507,6 @@ label {
 
   img {
     position: relative;
-    top: 1px;
   }
 
   .tl_select {
@@ -1555,7 +1548,7 @@ label {
   .tl_checkbox_wizard {
 
     label {
-      padding-left: 34px;
+      padding-left: 2.5rem;
     }
 
   }
@@ -1571,7 +1564,7 @@ label {
 
   td,
   th {
-    padding: 0 4px 1px 0;
+    padding: 0 .25rem 0 0;
   }
 
   th {
@@ -1581,25 +1574,24 @@ label {
 
   img {
     position: relative;
-    top: 1px;
   }
 
 }
 
 .fw_checkbox {
-  margin: 0 1px;
+  margin: 0;
 }
 
 #tl_tablewizard {
   overflow: auto;
-  padding-bottom: 2px;
+  padding-bottom: .125rem;
   width: 690px;
 }
 
 .tl_tablewizard {
 
   td {
-    padding: 2px 4px 0 0;
+    padding: .125rem .25rem 0 0;
 
     &.tcontainer {
       height: 78px;
@@ -1614,7 +1606,7 @@ label {
 .tl_listwizard {
 
   li {
-    padding-bottom: 1px;
+    padding-bottom: 0;
   }
 
   .drag-handle {
