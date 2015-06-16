@@ -662,35 +662,33 @@ h2 {
 }
 
 #tl_rebuild_index {
-  line-height: 1.5;
-  padding: 0 18px 18px;
+  padding: 0 1rem;
 }
 
 #index_note {
   background: #ffc;
   border: 1px solid #f90;
-  font-size: 14px;
-  line-height: 1;
-  margin: 24px 0 18px;
-  padding: 11px 12px 12px;
+  margin: 2rem 0 1rem;
+  padding: 1rem;
+}
+
+#index_loading,
+#index_complete {
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  font-size: 1.125rem;
+  margin: 0 0 1rem;
+  padding: 1rem 1rem 1rem 2.5rem;
 }
 
 #index_loading {
-  background: url('#{$path-img}/loading.gif') no-repeat 2px center;
+  background-image: url('#{$path-img}/loading.gif');
   color: #4b85ba;
-  font-size: 16px;
-  line-height: 1;
-  margin: 0 0 12px;
-  padding: 12px 12px 12px 36px;
 }
 
 #index_complete {
-  background: url('#{$path-img}/help.gif') no-repeat left center;
+  background-image: url('#{$path-img}/help.gif');
   color: #f57710;
-  font-size: 16px;
-  line-height: 1;
-  margin: 0 0 12px;
-  padding: 12px 12px 12px 36px;
 }
 
 .tl_listing {

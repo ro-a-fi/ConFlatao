@@ -432,32 +432,29 @@ h2.sub_headline_index {
     padding: .125rem; }
 
 #tl_rebuild_index {
-  line-height: 1.5;
-  padding: 0 18px 18px; }
+  padding: 0 1rem; }
 
 #index_note {
   background: #ffc;
   border: 1px solid #f90;
-  font-size: 14px;
-  line-height: 1;
-  margin: 24px 0 18px;
-  padding: 11px 12px 12px; }
+  margin: 2rem 0 1rem;
+  padding: 1rem; }
+
+#index_loading,
+#index_complete {
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  font-size: 1.125rem;
+  margin: 0 0 1rem;
+  padding: 1rem 1rem 1rem 2.5rem; }
 
 #index_loading {
-  background: url("images/loading.gif") no-repeat 2px center;
-  color: #4b85ba;
-  font-size: 16px;
-  line-height: 1;
-  margin: 0 0 12px;
-  padding: 12px 12px 12px 36px; }
+  background-image: url("images/loading.gif");
+  color: #4b85ba; }
 
 #index_complete {
-  background: url("images/help.gif") no-repeat left center;
-  color: #f57710;
-  font-size: 16px;
-  line-height: 1;
-  margin: 0 0 12px;
-  padding: 12px 12px 12px 36px; }
+  background-image: url("images/help.gif");
+  color: #f57710; }
 
 .tl_listing {
   width: 705px; }
