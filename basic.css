@@ -22,6 +22,9 @@
   src: url("src/dripicons/dripicons.eot?#iefix") format("embedded-opentype"), url("src/dripicons/dripicons.ttf") format("truetype"), url("src/dripicons/dripicons.svg#dripicons") format("svg"), url("src/dripicons/dripicons.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
+* {
+  box-sizing: border-box; }
+
 html,
 body,
 form,
