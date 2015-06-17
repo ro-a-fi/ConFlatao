@@ -2,7 +2,13 @@ $base-color-bg: #fff;
 $base-color: #4d555b;
 $base-font-family: 'Source Sans Pro';
 $base-font-family-fallback: sans-serif;
-$base-font-size: 13px;
+$base-font-size: .875rem;
+$base-font-weight: 400;
+$base-line-height: 1.5;
+
+$headlines-font-weight: 200;
+$headline-h1-font-size: 2rem;
+$headline-h2-font-size: 1.5rem;
 
 $link-color: #555;
 $link-color-hover: #f7642a;
@@ -12,6 +18,7 @@ $primary-color: #f7642a;
 $border-color: #ddd;
 
 $left-color-bg: #26324a;
+$left-width: 18rem;
 
 $mandatory-color: #c33;
 

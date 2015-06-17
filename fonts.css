@@ -4,15 +4,15 @@
     background: url("images/arrow_right.png") bottom right no-repeat;
     color: #4d555b;
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 22px;
+    font-size: 1.5rem;
     font-weight: 200;
-    padding: 0 36px 16px 0;
+    padding: 0 2.5rem 1rem 0;
     position: absolute;
-    right: 27px;
-    top: 4px; }
+    right: 2rem;
+    top: .25rem; }
 
 .tl_listing_container {
-  margin-top: 44px !important; }
+  margin-top: 4.5rem !important; }
 
 .selector_container {
   position: relative; }
@@ -21,11 +21,11 @@
   background: #fff url("images/arrow_left.png") 6px bottom no-repeat;
   color: #838990;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 15px;
+  font-size: 1.125rem;
   font-weight: 200;
-  left: 300px;
-  padding: 0 6px 20px 42px;
+  left: 21rem;
+  padding: 0 .5rem 1.5rem 3rem;
   position: absolute;
-  top: -48px; }
+  top: -3.5rem; }
 
 /*# sourceMappingURL=fonts.css.map */

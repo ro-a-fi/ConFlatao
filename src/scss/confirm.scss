@@ -14,20 +14,18 @@ dd {
 }
 
 dl {
-  line-height: 1.5;
-  margin: 0 18px 18px;
+  margin: 0 1rem 1rem;
   overflow: hidden;
 }
 
 dt {
   clear: both;
   font-weight: bold;
-  width: 150px;
+  width: 11rem;
 }
 
 p {
-  line-height: 1.5;
-  margin-bottom: 18px;
+  margin-bottom: 1rem;
 }
 
 #header {
@@ -35,17 +33,17 @@ p {
   background-image: linear-gradient(to top, $primary-color 0%, #f89111 100%);
   border: 1px solid $primary-color;
   border-bottom: 0;
-  border-radius: 3px 3px 0 0;
-  margin: 18px auto 0;
-  padding: 1px;
-  width: 636px;
+  border-radius: .25rem .25rem 0 0;
+  margin: 1rem auto 0;
+  padding: 0;
+  width: 45rem;
 
   h1 {
     color: #fff;
-    font-size: 13px;
+    font-size: 1rem;
     font-weight: bold;
     margin: 0;
-    padding: 2px 14px;
+    padding: .125rem 1rem;
   }
 
 }
@@ -53,31 +51,30 @@ p {
 #container {
   margin: 0 auto;
   padding: 0;
-  width: 640px;
+  width: 46rem;
 }
 
 #main {
   background: $base-color-bg;
   border: 1px solid #e5e5e5;
-  border-radius: 0 0 3px 3px;
+  border-radius: 0 0 .25rem .25rem;
   border-top: 0;
-  padding: 24px 18px 6px;
-  width: 602px;
+  padding: 1.5rem 1rem .5rem;
+  width: 43rem;
 }
 
 #link {
-  font-size: 13px;
   word-wrap: break-word;
 }
 
 .tl_submit {
   background: transparent none;
   border: 1px solid transparent;
-  border-radius: 3px;
+  border-radius: .25rem;
   color: $base-color;
-  margin-left: 2px;
-  margin-right: 6px;
-  padding: 2px 14px;
+  margin-left: .125rem;
+  margin-right: .5rem;
+  padding: .125rem 1rem;
   text-shadow: none;
 
   &:hover,
