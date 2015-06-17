@@ -9,18 +9,18 @@
     background: url('#{$path-img}/arrow_right.png') bottom right no-repeat;
     color: $base-color;
     font-family: $base-font-family, $base-font-family-fallback;
-    font-size: 22px;
+    font-size: 1.5rem;
     font-weight: 200;
-    padding: 0 36px 16px 0;
+    padding: 0 2.5rem 1rem 0;
     position: absolute;
-    right: 27px;
-    top: 4px;
+    right: 2rem;
+    top: .25rem;
   }
 
 }
 
 .tl_listing_container {
-  margin-top: 44px !important;
+  margin-top: 4.5rem !important;
 }
 
 .selector_container {
@@ -31,10 +31,10 @@
   background: $base-color-bg url('#{$path-img}/arrow_left.png') 6px bottom no-repeat;
   color: #838990;
   font-family: $base-font-family, $base-font-family-fallback;
-  font-size: 15px;
+  font-size: 1.125rem;
   font-weight: 200;
-  left: 300px;
-  padding: 0 6px 20px 42px;
+  left: 21rem;
+  padding: 0 .5rem 1.5rem 3rem;
   position: absolute;
-  top: -48px;
+  top: -3.5rem;
 }
