@@ -24,7 +24,8 @@ strong {
 
 #header {
   background: #fff;
-  border-bottom: 1px solid #d9dbe8; }
+  border-bottom: 1px solid #d9dbe8;
+  overflow: hidden; }
   #header h1 {
     border-bottom: 1px solid #e5e5e5;
     color: #4d555b;
