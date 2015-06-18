@@ -524,4 +524,19 @@ pre,
   float: right;
   margin: 0 0 1rem 1rem; }
 
+.pagination {
+  margin: 1rem 0 0; }
+  .pagination p {
+    float: left;
+    margin-bottom: 0; }
+  .pagination ul {
+    float: right; }
+  .pagination li {
+    display: inline-block;
+    margin: 0 .5rem; }
+  .pagination a:hover {
+    color: #f7642a; }
+  .pagination .current {
+    color: #f7642a; }
+
 /*# sourceMappingURL=basic.css.map */
