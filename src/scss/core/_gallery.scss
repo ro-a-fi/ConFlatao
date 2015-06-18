@@ -1,0 +1,16 @@
+.ce_gallery {
+
+  > ul {
+    @include clear();
+    list-style: none;
+    margin: -.25rem -.25rem .75rem;
+    padding: 0;
+
+    li {
+      float: left;
+      padding: .25rem;
+    }
+
+  }
+
+}

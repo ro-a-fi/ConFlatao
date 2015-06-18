@@ -488,4 +488,17 @@ pre,
   margin: 0;
   padding: 0; }
 
+.ce_gallery > ul {
+  list-style: none;
+  margin: -.25rem -.25rem .75rem;
+  padding: 0; }
+  .ce_gallery > ul:before, .ce_gallery > ul:after {
+    content: ' ';
+    display: table; }
+  .ce_gallery > ul:after {
+    clear: both; }
+  .ce_gallery > ul li {
+    float: left;
+    padding: .25rem; }
+
 /*# sourceMappingURL=basic.css.map */
