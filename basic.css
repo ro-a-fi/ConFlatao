@@ -453,4 +453,39 @@ pre,
 .ce_accordion .toggler {
   font-weight: bold; }
 
+.ce_download:before, .ce_download:after,
+.ce_downloads:before,
+.ce_downloads:after {
+  content: ' ';
+  display: table; }
+.ce_download:after,
+.ce_downloads:after {
+  clear: both; }
+.ce_download a,
+.ce_downloads a {
+  display: block;
+  overflow: hidden;
+  padding-right: 1.5rem; }
+  .ce_download a:before, .ce_download a:after,
+  .ce_downloads a:before,
+  .ce_downloads a:after {
+    content: ' ';
+    display: table; }
+  .ce_download a:after,
+  .ce_downloads a:after {
+    clear: both; }
+.ce_download .mime_icon,
+.ce_downloads .mime_icon {
+  float: left;
+  margin-right: .5rem; }
+.ce_download .size,
+.ce_downloads .size {
+  float: right;
+  font-size: .875rem; }
+
+.ce_downloads ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
 /*# sourceMappingURL=basic.css.map */

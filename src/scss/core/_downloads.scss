@@ -1,0 +1,32 @@
+.ce_download,
+.ce_downloads {
+  @include clear();
+
+  a {
+    @include clear();
+    display: block;
+    overflow: hidden;
+    padding-right: 1.5rem;
+  }
+
+  .mime_icon {
+    float: left;
+    margin-right: .5rem;
+  }
+
+  .size {
+    float: right;
+    font-size: .875rem;
+  }
+
+}
+
+.ce_downloads {
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+}
