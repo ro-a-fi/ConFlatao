@@ -1,0 +1,30 @@
+.pagination {
+  margin: 1rem 0 0;
+
+  p {
+    float: left;
+    margin-bottom: 0;
+  }
+
+  ul {
+    float: right;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 .5rem;
+  }
+
+  a {
+
+    &:hover {
+      color: $primary-color;
+    }
+
+  }
+
+  .current {
+    color: $primary-color;
+  }
+
+}
