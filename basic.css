@@ -507,4 +507,10 @@ pre,
 .ce_table th {
   padding: .25rem 0; }
 
+.ce_text:before, .ce_text:after {
+  content: ' ';
+  display: table; }
+.ce_text:after {
+  clear: both; }
+
 /*# sourceMappingURL=basic.css.map */
