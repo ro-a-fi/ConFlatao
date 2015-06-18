@@ -501,4 +501,10 @@ pre,
     float: left;
     padding: .25rem; }
 
+.ce_table table {
+  width: 100%; }
+.ce_table td,
+.ce_table th {
+  padding: .25rem 0; }
+
 /*# sourceMappingURL=basic.css.map */
