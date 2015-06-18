@@ -1,0 +1,22 @@
+.image_container {
+
+  &.float_above {
+    margin: 0 0 1rem;
+  }
+
+  &.float_left,
+  &.float_right {
+    max-width: 50%;
+  }
+
+  &.float_left {
+    float: left;
+    margin: 0 1rem 1rem 0;
+  }
+
+  &.float_right {
+    float: right;
+    margin: 0 0 1rem 1rem;
+  }
+
+}

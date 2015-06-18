@@ -513,4 +513,15 @@ pre,
 .ce_text:after {
   clear: both; }
 
+.image_container.float_above {
+  margin: 0 0 1rem; }
+.image_container.float_left, .image_container.float_right {
+  max-width: 50%; }
+.image_container.float_left {
+  float: left;
+  margin: 0 1rem 1rem 0; }
+.image_container.float_right {
+  float: right;
+  margin: 0 0 1rem 1rem; }
+
 /*# sourceMappingURL=basic.css.map */
