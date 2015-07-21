@@ -95,7 +95,6 @@ strong {
   box-shadow: inset -0.125rem -0.25rem 0.5rem rgba(0, 0, 0, 0.4);
   height: 100%;
   left: 0;
-  padding-bottom: 5rem;
   position: fixed;
   top: 0;
   width: 18rem; }
@@ -112,8 +111,8 @@ strong {
   #tl_navigation .tl_level_1 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.066);
     border-top: 1px solid rgba(255, 255, 255, 0.066);
-    height: 70%;
-    height: calc(100% - 143px);
+    height: 80%;
+    height: calc(100vh - 172px);
     margin-top: 0 !important;
     overflow: scroll;
     overflow-x: hidden;
@@ -479,7 +478,7 @@ h2.sub_headline_index {
   float: left;
   margin-left: 3rem;
   text-indent: -3rem;
-  width: 19rem; }
+  width: 40rem; }
 .tl_listing .tl_right {
   float: right;
   margin: 0 0 -.5rem;
@@ -702,7 +701,7 @@ ul.sgallery {
     float: left;
     margin-right: 0; }
 ul.level_1 .tl_left {
-  width: 18rem; }
+  width: 40rem; }
 ul.level_2 .tl_left {
   width: 27rem; }
 ul.level_3 .tl_left {
