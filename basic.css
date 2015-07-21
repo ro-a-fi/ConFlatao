@@ -153,8 +153,9 @@ optgroup {
 
 fieldset.tl_checkbox_container, fieldset.tl_radio_container {
   border: 0;
-  margin: 1rem 0 0;
-  padding: 0; }
+  margin: 1rem 0 0.5rem;
+  padding: 0;
+  line-height: 1.4; }
 fieldset.tl_checkbox_container legend, fieldset.tl_radio_container legend {
   font-size: 1.5rem;
   font-weight: 200;
@@ -321,7 +322,8 @@ pre,
 .tl_checkbox_container label {
   display: block;
   margin: -.875rem 0;
-  padding-left: 1.5rem; }
+  padding-left: 1.5rem;
+  line-height: 1; }
   .tl_checkbox_container label:last-child {
     margin-bottom: 0; }
 
@@ -423,7 +425,7 @@ pre,
 
 .tl_tip {
   cursor: pointer;
-  height: 1rem;
+  height: 1.2rem;
   overflow: hidden; }
 
 .tip-wrap {
@@ -448,7 +450,7 @@ pre,
   margin-left: 1rem;
   margin-top: .25rem;
   position: absolute;
-  top: -1rem; }
+  top: -0.55rem; }
 
 .ce_accordion .toggler {
   font-weight: bold; }
