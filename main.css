@@ -740,8 +740,8 @@ ul.level_9 .tl_left {
 .tl_content.indent:hover,
 .tl_listing li:hover,
 .tl_listing tr:hover td.tl_file_list:first-child {
-  border-left: 0.125rem solid #f7642a;
-  margin-left: -.125rem; }
+  /* border-left: 0.125rem solid #f7642a;
+  margin-left: -.125rem; */ }
 
 .tree_view .tl_listing .tl_left img {
   vertical-align: -.25rem; }
@@ -1389,7 +1389,7 @@ fieldset.collapsed {
 .w50 {
   margin-bottom: .75rem; }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 960px) {
   #header,
   #container,
   #footer {
@@ -1439,12 +1439,15 @@ fieldset.collapsed {
       border: 0;
       width: 50%; }
 
+  /*
   .tl_listing .tl_left {
     margin-left: 0;
     padding-left: 0 !important;
     text-indent: 0;
     width: auto !important; }
+    */
 
+  
   .tl_file,
   .tl_file_list {
     padding-left: 2.25rem !important; } }
