@@ -478,7 +478,7 @@ h2.sub_headline_index {
   float: left;
   margin-left: 3rem;
   text-indent: -3rem;
-  width: 40rem; }
+  width: 32rem; }
 .tl_listing .tl_right {
   float: right;
   margin: 0 0 -.5rem;
@@ -701,7 +701,7 @@ ul.sgallery {
     float: left;
     margin-right: 0; }
 ul.level_1 .tl_left {
-  width: 40rem; }
+  width: 32rem; }
 ul.level_2 .tl_left {
   width: 27rem; }
 ul.level_3 .tl_left {
