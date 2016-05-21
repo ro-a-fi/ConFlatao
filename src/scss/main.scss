@@ -166,8 +166,8 @@ strong {
   .tl_level_1 {
     border-bottom: 1px solid rgba(255, 255, 255, .066);
     border-top: 1px solid rgba(255, 255, 255, .066);
-    height: 70%;
-    height: calc(100% - 143px);
+    height: 80%;
+    height: calc(100vh - 172px);
     margin-top: 0 !important;
     overflow: scroll;
     overflow-x: hidden;
@@ -742,7 +742,7 @@ h2 {
     float: left;
     margin-left: 3rem;
     text-indent: -3rem;
-    width: 19rem;
+    width: 32rem;
   }
 
   .tl_right {
@@ -1218,7 +1218,7 @@ ul {
   &.level_1 {
 
     .tl_left {
-      width: 18rem;
+      width: 32rem;
     }
 
   }
@@ -1304,15 +1304,6 @@ ul {
 .tl_listing tr:hover,
 .tl_listing tr:hover td {
   background: #f0f1f5 !important;
-}
-
-.tl_header:hover,
-.tl_content:hover,
-.tl_content.indent:hover,
-.tl_listing li:hover,
-.tl_listing tr:hover td.tl_file_list:first-child {
-  border-left: .125rem solid $primary-color;
-  margin-left: -.125rem;
 }
 
 .tree_view {
@@ -2361,7 +2352,7 @@ fieldset {
   margin-bottom: .75rem;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 960px) {
 
   #header,
   #container,
@@ -2441,17 +2432,6 @@ fieldset {
         width: 50%;
       }
 
-    }
-
-  }
-
-  .tl_listing {
-
-    .tl_left {
-      margin-left: 0;
-      padding-left: 0 !important;
-      text-indent: 0;
-      width: auto !important;
     }
 
   }

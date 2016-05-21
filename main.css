@@ -95,6 +95,7 @@ strong {
   box-shadow: inset -0.125rem -0.25rem 0.5rem rgba(0, 0, 0, 0.4);
   height: 100%;
   left: 0;
+  padding-bottom: 5rem;
   position: fixed;
   top: 0;
   width: 18rem; }
@@ -733,14 +734,6 @@ ul.level_9 .tl_left {
 .tl_listing tr:hover,
 .tl_listing tr:hover td {
   background: #f0f1f5 !important; }
-
-.tl_header:hover,
-.tl_content:hover,
-.tl_content.indent:hover,
-.tl_listing li:hover,
-.tl_listing tr:hover td.tl_file_list:first-child {
-  /* border-left: 0.125rem solid #f7642a;
-  margin-left: -.125rem; */ }
 
 .tree_view .tl_listing .tl_left img {
   vertical-align: -.25rem; }
@@ -1438,15 +1431,6 @@ fieldset.collapsed {
       border: 0;
       width: 50%; }
 
-  /*
-  .tl_listing .tl_left {
-    margin-left: 0;
-    padding-left: 0 !important;
-    text-indent: 0;
-    width: auto !important; }
-    */
-
-  
   .tl_file,
   .tl_file_list {
     padding-left: 2.25rem !important; } }

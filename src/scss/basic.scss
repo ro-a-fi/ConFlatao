@@ -219,7 +219,8 @@ fieldset {
   &.tl_checkbox_container,
   &.tl_radio_container {
     border: 0;
-    margin: 1rem 0 0;
+    line-height: 1.4;
+    margin: 1rem 0 .5rem;
     padding: 0;
   }
 
@@ -444,6 +445,7 @@ pre,
 
   label {
     display: block;
+    line-height: 1;
     margin: -.875rem 0;
     padding-left: 1.5rem;
 
@@ -546,7 +548,7 @@ pre,
 
 .w50 {
   float: left;
-  height: 5rem;
+  height: 6.25rem;
   width: 50%;
 
   .tl_help {
@@ -602,7 +604,7 @@ pre,
 
 .tl_tip {
   cursor: pointer;
-  height: 1rem;
+  height: 1.2rem;
   overflow: hidden;
 }
 
@@ -633,7 +635,7 @@ pre,
   margin-left: 1rem;
   margin-top: .25rem;
   position: absolute;
-  top: -1rem;
+  top: -.55rem;
 }
 
 @import "core/accordion";
